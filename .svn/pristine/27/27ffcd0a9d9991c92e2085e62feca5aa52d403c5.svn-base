@@ -1,0 +1,133 @@
+﻿/*
+    林楷
+*/
+*{
+  margin:0;
+  padding:0;
+}
+a{
+  text-decoration: none;
+}
+ul,li{
+    list-style:none;
+}
+#header {
+    background-color: #666666;
+    position: relative;
+}
+#Logo{
+  line-height:70px;
+  padding-left: 20px;
+  padding-top: 5px;
+  width:40%;
+  height: 80px;
+  font-size: 20px;
+  color: white;
+}
+#nav{
+  padding-top: 15px;
+  position: absolute;
+  top:0;
+  left: 36%;
+  width: 64%;
+}
+
+#introduce{
+    border:1px solid rgb(233, 233, 233);
+    text-align:center;
+    background-color: rgb(233, 233, 233);
+    padding-bottom:20px;
+}
+#introduce h1{
+    color:#ff4f4f;
+    padding:20px;
+}
+#in_box {
+    margin:0 auto;
+    width:870px;
+    height:320px;
+}
+.in_box {
+    margin:0 20px;
+    text-align:center;
+    border-radius: 500px;
+    height:250px;
+    width: 250px;
+    border: 3px solid #fff;
+    background-color: #fff;
+    float:left;
+}
+.in_box:hover{
+    border:3px solid #46ff28;
+}
+.in_name {
+    width: 250px;
+    margin: 10px 20px;
+    font-size: 25px;
+    float: left;
+}
+.in_name a {
+    text-decoration: none;
+    color: #46ff28;
+}
+#teachers {
+    border: 1px solid rgb(66, 66, 66);
+    text-align: center;
+    background-color: rgb(66, 66, 66);
+}
+#teachers h1{
+    color:red;
+    padding:20px;
+}
+#activity {
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+    border: 1px solid rgb(233, 233, 233);
+}
+#activity h1{
+    color:red;
+    padding:20px;
+}
+.main{
+    position: relative;
+    width: 1000px;
+    height: 450px;
+    margin: 0 auto;
+}
+.main a{
+    color: #fff;
+}
+.main .view p{
+    height:70px;
+    line-height:20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display:-webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient: vertical;
+    work-bread:break-word;
+    margin-bottom:5px;
+    font-size:14px;
+    width:280px;
+}
+#footer{
+    padding:20px 0;
+  text-align: center;
+  font-size: 15px;
+  color: rgb(151, 151, 151);
+  background-color: rgb(66, 66, 66);
+}
+#introduce-left{
+    height:300px;
+    width:35%;
+    float:left;
+}
+#introduce-right {
+    padding:5px;
+    text-indent: 2em;
+    color: green;
+    text-align: left;
+    height: 300px;
+    width: 65%;
+    float: left;
+}

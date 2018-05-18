@@ -1,0 +1,87 @@
+﻿
+<!--林楷-->
+        {^extends file="./public.html"$}
+        {^block name="main"$}
+        <div id="content">
+            <div id="switchable">
+                <div class="shutter">
+                    <div class="shutter-img">
+                        {^foreach $switch_list as $switch$}
+                        {^if $switch['switchable_show']==1 && $switch@index < 4$}
+                        <a data-shutter-title="{^$switch['switchable_name']$}"><img src="./app/uploaded/{^$switch['switchable_images']$}" alt="#"></a>
+                        {^/if$}
+                        {^/foreach$}
+                    </div>
+                    <ul class="shutter-btn">
+                        <li class="prev"></li>
+                        <li class="next"></li>
+                    </ul>
+                    <div class="shutter-desc">
+                        <p>{^$switch['switchable_name']$}</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div id="introduce">
+                {^$i = 1$}
+                {^foreach $work_list as $work$}
+                {^if $work['work_title'] eq "班级介绍" && $work['work_show'] == 1 && $i++ <= 1$}
+                    <h1>{^$work['work_title']$}</h1>
+                    <div id="introduce-left" style="">
+                        <img src="./app/uploaded/{^$work['work_images']$}" style="max-height:300px;max-width:auto;" />
+                    </div>
+                    <div id="introduce-right" style="max-height:300px;max-width:auto;">
+                        {^$work['work_content']$}
+                    </div>
+                    <div style="clear:both"></div>
+                
+                {^/if$}
+                {^/foreach$}
+            </div>
+            </div>
+            <div id="teachers">
+                <h1>班主任介绍</h1>
+                <div id="in_box">
+                    <div id="in_box_1" class="in_box">
+                    </div>
+                    <div id="in_box_2" class="in_box">
+
+                    </div>
+                    <div id="in_box_3" class="in_box">
+
+                    </div>
+                    <div id="name1" class="in_name">
+                        <a href="#">梁剑</a>
+                    </div>
+                    <div id="name2" class="in_name">
+                        <a href="#">马向云</a>
+                    </div>
+                    <div id="name3" class="in_name">
+                        <a href="#">方镇海</a>
+                    </div>
+                </div>
+                <div style="clear:both;"></div>
+
+            </div>
+            <div id="activity">
+                <h1>昔日风采</h1>
+                <div class="main">
+                    {^$i = 1$}
+                    {^foreach $work_list as $work$}
+                    {^if $work['work_show'] == 1 && $work['work_title'] eq '昔日风采' &&  $i++ <= 6 && $work['work_hot'] == 1$}
+                    <div class="view view-seventh">
+                        <img src="./app/uploaded/{^$work['work_images']$}" style="max-width:300;max-height:auto;" />
+                        <div class="mask">
+                            {^$work['work_content']$}
+                            <a href="{^$work['work_id']$}" class="info">详情</a>
+                        </div>
+                    </div>
+                    {^/if$}
+                    {^/foreach$}
+                </div>
+            </div>
+        </div>
+        
+        {^/block$}
+    
+                

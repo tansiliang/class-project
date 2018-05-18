@@ -1,0 +1,8 @@
+[2018-05-05 11:04:24]set names utf8数据
+[2018-05-05 11:04:24]select sess_data from `gj_session` where sess_name='ck4j3efqmbpu1b4f65atf8qik7'数据
+[2018-05-05 11:04:24]desc `gj_admin_user`数据
+[2018-05-05 11:04:24]select * from `gj_admin_user` where ad_id = '14'数据
+[2018-05-05 11:04:24]insert into `gj_session` values ('ck4j3efqmbpu1b4f65atf8qik7', 'is_captcha|s:4:"P2TC";id|s:2:"14";is_name|s:3:"yes";', 1525489464) on duplicate key update sess_data='is_captcha|s:4:"P2TC";id|s:2:"14";is_name|s:3:"yes";', expact=1525489464数据
+[2018-05-05 11:04:24]set names utf8数据
+[2018-05-05 11:04:24]select sess_data from `gj_session` where sess_name='ck4j3efqmbpu1b4f65atf8qik7'数据
+[2018-05-05 11:04:24]insert into `gj_session` values ('ck4j3efqmbpu1b4f65atf8qik7', 'is_captcha|s:4:"P2TC";id|s:2:"14";is_name|s:3:"yes";', 1525489464) on duplicate key update sess_data='is_captcha|s:4:"P2TC";id|s:2:"14";is_name|s:3:"yes";', expact=1525489464数据

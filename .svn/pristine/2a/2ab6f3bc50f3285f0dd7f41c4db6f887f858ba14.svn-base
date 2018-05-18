@@ -1,0 +1,273 @@
+﻿{^extends file="./public.html"$}
+{^block name="main"$}
+    <div id="content">
+        <div id="content-left">
+            <table id="page">
+                <tr>
+                    <td><div id="basic">基本信息</div></td>
+                </tr>
+                <tr>
+                    <td class="list_title">
+                        <div id="username">
+                            <span>昵称</span><br/>
+                        </div>
+                    </td>
+                    <td class="list_content">
+                        <span id="nowName">大帅哥？</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="list_title">
+                        <div id="schoolId">
+                            <span>学号</span>
+                        </div>
+                    </td>
+                    <td class="list_content">
+                        <span>20162327</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="list_title">
+                        <div id="head">
+                            <span>头像</span>
+                        </div>
+                    </td>
+                    <td class="list_content">
+                        <img src="images/linkai.jpg" width="100px" height="100px" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="list_title">
+                        <div id="name">
+                            <span>真实姓名</span>
+                        </div>
+                    </td>
+                    <td class="list_content">
+                        <span id="now_truename">林楷</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="list_title">
+                        <div id="email">
+                            <span>邮箱</span>
+                        </div>
+                    </td>
+                    <td class="list_content">
+                        <span id="nowEmail">751519681@qq.com</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="list_title">
+                        <div id="phoneNumber">
+                            <span>手机号码</span>
+                        </div>
+                    </td>
+                    <td class="list_content">
+                        <span id="nowNumber">13828617907</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="list_title">
+                        <div id="phoneNumber">
+                            <span>爱好</span>
+                        </div>
+                    </td>
+                    <td class="list_content">
+                        <span>打游戏</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="list_title">
+                        <div id="phoneNumber">
+                            <span>自我介绍</span>
+                        </div>
+                    </td>
+                    <td class="list_content">
+                        <span>我是帅哥</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="list_title">
+                        <div id="phoneNumber">
+                            <span>个人图片</span>
+                        </div>
+                    </td>
+                    <td class="list_content">
+                        <img src="images/linkai.jpg" width="100px" height="100px" />
+                    </td>
+                </tr>
+            </table>
+            <button id="revise" class="btn btn-default btn-sm">编辑</button>
+        </div>
+
+        <div id="content-right">
+            <div id="basic">修改信息</div>
+            <div id="username" class="list">
+                <span class="list_a">昵称</span>
+                <input type="text" id="newName" onkeyup="IsLetter()" value="大帅哥" class="form-control" style="width:200px;"/>
+                <div id="newNameb"></div>
+            </div>
+            <div id="schoolId" class="list">
+                <span class="list_a">学号</span><span>20162327</span>
+            </div>
+            <div id="head" class="list">
+                <span class="list_a">头像</span>
+                <span>
+                    <input type="file" id="headfile" />
+                    <img src="" width="100px" height="100px" />
+                </span>
+            </div>
+            <div id="sex" class="list" style="margin-top:20px;">
+                <span class="list_a">性别</span>
+                <span>
+                    <input type="radio" name="sex" value="男" checked="checked"/>男
+                    <input type="radio" name="sex" value="女" />女
+                </span>
+            </div>
+            <div id="name" class="list">
+                <span class="list_a">真实姓名</span>
+                <input type="text" value="大帅哥" onkeyup="IsName()" id="new_truename" class="form-control" style="width:200px;"/>
+                <div id="new_truenameb"></div>
+            </div>
+            <div id="email" class="list">
+                <span class="list_a">邮箱</span>
+                <input type="email" id="newEmail" onkeyup="IsEmail()" value="1111111" class="form-control" style="width:200px;"/>
+                <div id="emailp"></div>
+            </div>
+            <div id="phoneNumber" class="list">
+                <span class="list_a">手机号码</span>
+                <input type="text" onkeyup="IsInteger()" value="1234567891" id="newNumber" class="form-control" style="width:200px;"/>
+                <div id="Numberb"></div>
+            </div>
+            <div id="phoneNumber" class="list">
+                <span class="list_a">爱好</span>
+                    <textarea class="form-control"></textarea>
+            </div>
+            <div id="phoneNumber" class="list">
+                <span class="list_a">自我介绍</span>
+                    <textarea class="form-control"></textarea>
+            </div>
+            <div id="phoneNumber" class="list">
+                <span class="list_a">个人图片</span>
+                <input type="file" />
+                <img src="" width="100px" height="100px" />
+            </div>
+        </div>
+        <div style="clear:both"></div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $("#content-right").hide();
+            $("#revise").click(function () {
+                if ($("#revise").text() == "编辑") {
+                    $("#revise").text("完成");
+                    $("#content-right").show();
+                    $("#revise").css({ "background-color": "green", "color": "#fff" });
+                } else {
+                    $("#revise").text("编辑");
+                    $("#content-right").hide();
+                    $("#revise").css({ "background-color": "#fff", "color": "#000" });
+
+                    $("#nowName").text($("#newName").val());
+                    $("#now_truename").text($("#new_truename").val());
+                    $("#nowEmail").text($("#newEmail").val());
+                    $("#nowNumber").text($("#newNumber").val());
+                    $('input:radio:checked').val();
+                    $("#nowSex").text($('input:radio:checked').val());
+                }
+            });
+        });
+    </script>
+    <script>
+        var isLet = IsLetter();
+        var isName = IsName();
+        var isEmail = IsEmail();
+        var isNumber = IsInteger();
+        //判断输入的字符不得超过15个字符
+        function IsLetter() {
+            var newName = document.getElementById('newName').value.trim();
+            if (newName.length != 0) {
+                if (newName.length > 15) {
+                    document.getElementById("newNameb").innerHTML = "昵称不得超过15个字！";
+                    return false;
+                } else {
+                    document.getElementById("newNameb").innerHTML = "";
+                    return true;
+                }
+            } else if (newName.length == 0) {
+                document.getElementById("newNameb").innerHTML = "请输入昵称！";
+                return false;
+            } else {
+                document.getElementById("newNameb").innerHTML = "";
+                return true;
+            }
+        }
+        //判断输入的字符不得超过4个字符
+        function IsName() {
+            var new_truename = document.getElementById('new_truename').value.trim();
+            if (new_truename.length != 0) {
+                if (new_truename.length > 4) {
+                    document.getElementById("new_truenameb").innerHTML = "真实姓名不得超过4个字！";
+                    return false;
+                } else {
+                    document.getElementById("new_truenameb").innerHTML = "";
+                    return true;
+                }
+            } else if (new_truename.length == 0) {
+                document.getElementById("new_truenameb").innerHTML = "请输入真实姓名！";
+                return false;
+            } else {
+                document.getElementById("new_truenameb").innerHTML = "";
+                return true;
+            }
+        }
+        //电子邮件验证
+        function IsEmail() {
+            var email = document.getElementById('newEmail').value.trim();
+            if (email.length != 0) {
+                reg = /^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
+                if (!reg.test(email)) {
+                    document.getElementById("emailp").innerHTML = "输入的电子邮件格式错误！";
+                    return false;
+                } else {
+                    document.getElementById("emailp").innerHTML = "";
+                }
+            } else if (email.length == 0) {
+                document.getElementById("emailp").innerHTML = "请输入电子邮件！";
+                return false;
+            } else {
+                document.getElementById("emailp").innerHTML = "";
+                return true;
+            }
+        }
+        //验证手机号码
+        function IsInteger() {
+            var newNumber = document.getElementById('newNumber').value.trim();
+            if (newNumber.length != 0) {
+                reg = /^[+]{0,1}(\d){1,3}[ ]?([-]?((\d)|[ ]){1,12})+$/;
+                if (!reg.test(newNumber)) {
+                    document.getElementById("Numberb").innerHTML = "输入的字符不是整数";
+                    return false;
+                } else {
+                    document.getElementById("Numberb").innerHTML = "";
+                    return true;
+                }
+            } else if (newNumber.length == 0) {
+                document.getElementById("Numberb").innerHTML = "请输入手机号码";
+                return false;
+            } else {
+                document.getElementById("Numberb").innerHTML = "";
+                return true;
+            }
+        }
+        //提交
+        function Istrue() {
+            if (isLet == false || isName == false || isEmail == false || isNumber == false) {
+                alert("信息输入错误！");
+            } else {
+                alert("lfkdsjlkfjdasl");
+            }
+        }
+    </script>
+    {^/block$}

@@ -1,0 +1,51 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+#content-tilte{
+    background-color:green;
+    font-weight:bolder;
+    text-align:center;
+    padding:20px 0;
+    color:#fff;
+}
+#content-left{
+    padding:10px;
+    padding-left:20px;
+    width:50%;
+    float:left;
+    position:relative;
+}
+#content-right {
+    padding: 10px;
+    padding-left: 20px;
+    width: 50%;
+    float: left;
+}
+#revise{
+    position:absolute;
+    bottom:0px;
+    right:0px;
+}
+.list_title{
+    text-align:right;
+    padding:15px 0;
+}
+.list_content{
+    padding-left:50px;
+}
+.list{
+    padding-bottom:15px;
+    height:50px;
+}
+#basic{
+    width:90px;
+    margin-bottom:20px;
+    font-size:20px;
+    font-weight:bolder;
+}
+#phone,#new_truename,#nick_name,#emails{
+    color:red;
+    font-size:14px;
+    text-align:center;
+}

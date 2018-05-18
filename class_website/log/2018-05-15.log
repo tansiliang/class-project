@@ -1,0 +1,867 @@
+[2018-05-15 16:12:51]desc `gj_admin_user`
+[2018-05-15 16:12:52]select * from `gj_admin_user` where ad_id = '14'
+[2018-05-15 16:12:52]select * from `gj_admin_user` where ad_id = '14'
+[2018-05-15 16:12:54]insert into `gj_session` values ('bvafr9snmjub9sfjjdpvpu8qv1', 'is_captcha|s:4:"4XG2";id|s:2:"14";is_name|s:3:"yes";', 1526371974) on duplicate key update sess_data='is_captcha|s:4:"4XG2";id|s:2:"14";is_name|s:3:"yes";', expact=1526371974
+[2018-05-15 16:12:54]insert into `gj_session` values ('bvafr9snmjub9sfjjdpvpu8qv1', 'is_captcha|s:4:"4XG2";id|s:2:"14";is_name|s:3:"yes";', 1526371974) on duplicate key update sess_data='is_captcha|s:4:"4XG2";id|s:2:"14";is_name|s:3:"yes";', expact=1526371974
+[2018-05-15 16:12:55]set names utf8
+[2018-05-15 16:12:57]select sess_data from `gj_session` where sess_name='bvafr9snmjub9sfjjdpvpu8qv1'
+[2018-05-15 16:12:57]insert into `gj_session` values ('bvafr9snmjub9sfjjdpvpu8qv1', 'is_captcha|s:4:"4XG2";id|s:2:"14";is_name|s:3:"yes";', 1526371977) on duplicate key update sess_data='is_captcha|s:4:"4XG2";id|s:2:"14";is_name|s:3:"yes";', expact=1526371977
+[2018-05-15 16:14:28]set names utf8
+[2018-05-15 16:14:28]desc `gj_naviga`
+[2018-05-15 16:14:28]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 16:14:28]desc `gj_webset`
+[2018-05-15 16:14:29]select * from `gj_webset` where 1
+[2018-05-15 16:14:29]desc `gj_work`
+[2018-05-15 16:14:29]select * from `gj_work` where 1 order by work_order
+[2018-05-15 16:14:33]set names utf8
+[2018-05-15 16:14:33]desc `gj_naviga`
+[2018-05-15 16:14:33]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 16:14:33]desc `gj_webset`
+[2018-05-15 16:14:33]select * from `gj_webset` where 1
+[2018-05-15 16:18:01]set names utf8
+[2018-05-15 16:18:01]desc `gj_naviga`
+[2018-05-15 16:18:01]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 16:18:01]desc `gj_webset`
+[2018-05-15 16:18:01]select * from `gj_webset` where 1
+[2018-05-15 16:18:01]desc `gj_switchable`
+[2018-05-15 16:18:01]select * from `gj_switchable` where 1 order by switchable_order desc
+[2018-05-15 16:18:01]desc `gj_work`
+[2018-05-15 16:18:01]select * from `gj_work` where 1 order by work_order
+[2018-05-15 16:26:08]set names utf8
+[2018-05-15 16:26:08]desc `gj_naviga`
+[2018-05-15 16:26:08]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 16:26:08]desc `gj_webset`
+[2018-05-15 16:26:08]select * from `gj_webset` where 1
+[2018-05-15 16:26:08]desc `gj_switchable`
+[2018-05-15 16:26:08]select * from `gj_switchable` where 1 order by switchable_order desc
+[2018-05-15 16:26:08]desc `gj_work`
+[2018-05-15 16:26:08]select * from `gj_work` where 1 order by work_order
+[2018-05-15 16:26:10]set names utf8
+[2018-05-15 16:26:10]desc `gj_naviga`
+[2018-05-15 16:26:10]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 16:26:10]desc `gj_webset`
+[2018-05-15 16:26:10]select * from `gj_webset` where 1
+[2018-05-15 16:26:10]desc `gj_switchable`
+[2018-05-15 16:26:10]select * from `gj_switchable` where 1 order by switchable_order desc
+[2018-05-15 16:26:10]desc `gj_work`
+[2018-05-15 16:26:10]select * from `gj_work` where 1 order by work_order
+[2018-05-15 16:26:22]set names utf8
+[2018-05-15 16:26:22]desc `gj_naviga`
+[2018-05-15 16:26:22]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 16:26:22]desc `gj_webset`
+[2018-05-15 16:26:22]select * from `gj_webset` where 1
+[2018-05-15 16:26:22]desc `gj_switchable`
+[2018-05-15 16:26:22]select * from `gj_switchable` where 1 order by switchable_order desc
+[2018-05-15 16:26:22]desc `gj_work`
+[2018-05-15 16:26:22]select * from `gj_work` where 1 order by work_order
+[2018-05-15 16:26:24]set names utf8
+[2018-05-15 16:26:24]desc `gj_naviga`
+[2018-05-15 16:26:24]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 16:26:24]desc `gj_webset`
+[2018-05-15 16:26:24]select * from `gj_webset` where 1
+[2018-05-15 16:26:52]set names utf8
+[2018-05-15 16:26:52]desc `gj_naviga`
+[2018-05-15 16:26:52]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 16:26:52]desc `gj_webset`
+[2018-05-15 16:26:52]select * from `gj_webset` where 1
+[2018-05-15 16:26:52]desc `gj_switchable`
+[2018-05-15 16:26:52]select * from `gj_switchable` where 1 order by switchable_order desc
+[2018-05-15 16:26:52]desc `gj_work`
+[2018-05-15 16:26:52]select * from `gj_work` where 1 order by work_order
+[2018-05-15 16:26:54]set names utf8
+[2018-05-15 16:26:54]desc `gj_naviga`
+[2018-05-15 16:26:54]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 16:26:54]desc `gj_webset`
+[2018-05-15 16:26:54]select * from `gj_webset` where 1
+[2018-05-15 16:31:46]set names utf8
+[2018-05-15 16:31:46]desc `gj_naviga`
+[2018-05-15 16:31:46]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 16:31:46]desc `gj_webset`
+[2018-05-15 16:31:46]select * from `gj_webset` where 1
+[2018-05-15 16:36:53]set names utf8
+[2018-05-15 16:36:53]desc `gj_naviga`
+[2018-05-15 16:36:53]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 16:36:54]desc `gj_webset`
+[2018-05-15 16:36:54]select * from `gj_webset` where 1
+[2018-05-15 16:37:01]set names utf8
+[2018-05-15 16:37:01]desc `gj_naviga`
+[2018-05-15 16:37:01]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 16:37:01]desc `gj_webset`
+[2018-05-15 16:37:01]select * from `gj_webset` where 1
+[2018-05-15 16:37:02]set names utf8
+[2018-05-15 16:37:03]desc `gj_naviga`
+[2018-05-15 16:37:03]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 16:37:03]desc `gj_webset`
+[2018-05-15 16:37:03]select * from `gj_webset` where 1
+[2018-05-15 16:37:03]desc `gj_switchable`
+[2018-05-15 16:37:03]select * from `gj_switchable` where 1 order by switchable_order desc
+[2018-05-15 16:37:03]desc `gj_work`
+[2018-05-15 16:37:03]select * from `gj_work` where 1 order by work_order
+[2018-05-15 16:37:19]set names utf8
+[2018-05-15 16:37:19]desc `gj_naviga`
+[2018-05-15 16:37:19]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 16:37:19]desc `gj_webset`
+[2018-05-15 16:37:20]select * from `gj_webset` where 1
+[2018-05-15 16:38:06]set names utf8
+[2018-05-15 16:38:06]desc `gj_naviga`
+[2018-05-15 16:38:06]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 16:38:06]desc `gj_webset`
+[2018-05-15 16:38:06]select * from `gj_webset` where 1
+[2018-05-15 16:40:08]set names utf8
+[2018-05-15 16:40:08]desc `gj_naviga`
+[2018-05-15 16:40:08]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 16:40:08]desc `gj_webset`
+[2018-05-15 16:40:08]select * from `gj_webset` where 1
+[2018-05-15 16:40:29]set names utf8
+[2018-05-15 16:40:29]desc `gj_naviga`
+[2018-05-15 16:40:29]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 16:40:29]desc `gj_webset`
+[2018-05-15 16:40:29]select * from `gj_webset` where 1
+[2018-05-15 16:40:29]desc `gj_switchable`
+[2018-05-15 16:40:29]select * from `gj_switchable` where 1 order by switchable_order desc
+[2018-05-15 16:40:29]desc `gj_work`
+[2018-05-15 16:40:29]select * from `gj_work` where 1 order by work_order
+[2018-05-15 16:40:32]set names utf8
+[2018-05-15 16:40:32]desc `gj_naviga`
+[2018-05-15 16:40:32]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 16:40:32]desc `gj_webset`
+[2018-05-15 16:40:32]select * from `gj_webset` where 1
+[2018-05-15 16:48:14]set names utf8
+[2018-05-15 16:48:14]desc `gj_naviga`
+[2018-05-15 16:48:14]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 16:48:14]desc `gj_webset`
+[2018-05-15 16:48:14]select * from `gj_webset` where 1
+[2018-05-15 16:50:09]set names utf8
+[2018-05-15 16:50:09]desc `gj_naviga`
+[2018-05-15 16:50:10]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 16:50:10]desc `gj_webset`
+[2018-05-15 16:50:10]select * from `gj_webset` where 1
+[2018-05-15 16:51:39]set names utf8
+[2018-05-15 16:51:39]desc `gj_naviga`
+[2018-05-15 16:51:39]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 16:51:39]desc `gj_webset`
+[2018-05-15 16:51:39]select * from `gj_webset` where 1
+[2018-05-15 16:51:39]set names utf8
+[2018-05-15 16:51:39]desc `gj_naviga`
+[2018-05-15 16:51:39]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 16:51:39]desc `gj_webset`
+[2018-05-15 16:51:39]select * from `gj_webset` where 1
+[2018-05-15 16:52:21]set names utf8
+[2018-05-15 16:52:21]desc `gj_naviga`
+[2018-05-15 16:52:21]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 16:52:21]desc `gj_webset`
+[2018-05-15 16:52:21]select * from `gj_webset` where 1
+[2018-05-15 16:52:30]set names utf8
+[2018-05-15 16:52:30]desc `gj_naviga`
+[2018-05-15 16:52:30]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 16:52:30]desc `gj_webset`
+[2018-05-15 16:52:30]select * from `gj_webset` where 1
+[2018-05-15 16:52:37]set names utf8
+[2018-05-15 16:52:37]desc `gj_naviga`
+[2018-05-15 16:52:37]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 16:52:37]desc `gj_webset`
+[2018-05-15 16:52:37]select * from `gj_webset` where 1
+[2018-05-15 16:52:55]set names utf8
+[2018-05-15 16:52:55]desc `gj_naviga`
+[2018-05-15 16:52:55]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 16:52:55]desc `gj_webset`
+[2018-05-15 16:52:55]select * from `gj_webset` where 1
+[2018-05-15 20:14:47]set names utf8
+[2018-05-15 20:14:47]desc `gj_naviga`
+[2018-05-15 20:14:47]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:14:47]desc `gj_webset`
+[2018-05-15 20:14:47]select * from `gj_webset` where 1
+[2018-05-15 20:14:47]desc `gj_switchable`
+[2018-05-15 20:14:47]select * from `gj_switchable` where 1 order by switchable_order desc
+[2018-05-15 20:14:47]desc `gj_work`
+[2018-05-15 20:14:48]select * from `gj_work` where 1 order by work_order
+[2018-05-15 20:16:19]set names utf8
+[2018-05-15 20:16:19]desc `gj_naviga`
+[2018-05-15 20:16:19]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:16:19]desc `gj_webset`
+[2018-05-15 20:16:20]select * from `gj_webset` where 1
+[2018-05-15 20:16:27]set names utf8
+[2018-05-15 20:16:27]desc `gj_naviga`
+[2018-05-15 20:16:27]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:16:27]desc `gj_webset`
+[2018-05-15 20:16:27]select * from `gj_webset` where 1
+[2018-05-15 20:16:41]set names utf8
+[2018-05-15 20:16:41]desc `gj_naviga`
+[2018-05-15 20:16:42]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:16:42]desc `gj_webset`
+[2018-05-15 20:16:42]select * from `gj_webset` where 1
+[2018-05-15 20:16:42]set names utf8
+[2018-05-15 20:16:42]desc `gj_naviga`
+[2018-05-15 20:16:42]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:16:42]desc `gj_webset`
+[2018-05-15 20:16:42]select * from `gj_webset` where 1
+[2018-05-15 20:16:52]set names utf8
+[2018-05-15 20:16:52]desc `gj_naviga`
+[2018-05-15 20:16:52]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:16:52]desc `gj_webset`
+[2018-05-15 20:16:52]select * from `gj_webset` where 1
+[2018-05-15 20:16:52]set names utf8
+[2018-05-15 20:16:52]desc `gj_naviga`
+[2018-05-15 20:16:53]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:16:53]desc `gj_webset`
+[2018-05-15 20:16:53]select * from `gj_webset` where 1
+[2018-05-15 20:16:53]set names utf8
+[2018-05-15 20:16:53]desc `gj_naviga`
+[2018-05-15 20:16:53]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:16:53]desc `gj_webset`
+[2018-05-15 20:16:53]select * from `gj_webset` where 1
+[2018-05-15 20:16:53]set names utf8
+[2018-05-15 20:16:53]desc `gj_naviga`
+[2018-05-15 20:16:53]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:16:53]desc `gj_webset`
+[2018-05-15 20:16:53]select * from `gj_webset` where 1
+[2018-05-15 20:16:54]set names utf8
+[2018-05-15 20:16:54]desc `gj_naviga`
+[2018-05-15 20:16:54]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:16:54]desc `gj_webset`
+[2018-05-15 20:16:54]select * from `gj_webset` where 1
+[2018-05-15 20:16:56]set names utf8
+[2018-05-15 20:16:56]desc `gj_naviga`
+[2018-05-15 20:16:56]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:16:56]desc `gj_webset`
+[2018-05-15 20:16:56]select * from `gj_webset` where 1
+[2018-05-15 20:16:56]desc `gj_switchable`
+[2018-05-15 20:16:56]select * from `gj_switchable` where 1 order by switchable_order desc
+[2018-05-15 20:16:56]desc `gj_work`
+[2018-05-15 20:16:56]select * from `gj_work` where 1 order by work_order
+[2018-05-15 20:17:01]set names utf8
+[2018-05-15 20:17:01]desc `gj_naviga`
+[2018-05-15 20:17:01]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:17:01]desc `gj_webset`
+[2018-05-15 20:17:01]select * from `gj_webset` where 1
+[2018-05-15 20:17:25]set names utf8
+[2018-05-15 20:17:25]desc `gj_naviga`
+[2018-05-15 20:17:25]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:17:25]desc `gj_webset`
+[2018-05-15 20:17:25]select * from `gj_webset` where 1
+[2018-05-15 20:17:32]set names utf8
+[2018-05-15 20:17:32]desc `gj_naviga`
+[2018-05-15 20:17:32]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:17:32]desc `gj_webset`
+[2018-05-15 20:17:32]select * from `gj_webset` where 1
+[2018-05-15 20:17:45]set names utf8
+[2018-05-15 20:17:45]desc `gj_naviga`
+[2018-05-15 20:17:45]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:17:45]desc `gj_webset`
+[2018-05-15 20:17:45]select * from `gj_webset` where 1
+[2018-05-15 20:19:44]set names utf8
+[2018-05-15 20:19:44]desc `gj_naviga`
+[2018-05-15 20:19:44]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:19:44]desc `gj_webset`
+[2018-05-15 20:19:44]select * from `gj_webset` where 1
+[2018-05-15 20:20:25]set names utf8
+[2018-05-15 20:20:25]desc `gj_naviga`
+[2018-05-15 20:20:25]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:20:25]desc `gj_webset`
+[2018-05-15 20:20:25]select * from `gj_webset` where 1
+[2018-05-15 20:20:42]set names utf8
+[2018-05-15 20:20:42]desc `gj_naviga`
+[2018-05-15 20:20:42]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:20:42]desc `gj_webset`
+[2018-05-15 20:20:42]select * from `gj_webset` where 1
+[2018-05-15 20:20:49]set names utf8
+[2018-05-15 20:20:49]desc `gj_naviga`
+[2018-05-15 20:20:49]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:20:49]desc `gj_webset`
+[2018-05-15 20:20:49]select * from `gj_webset` where 1
+[2018-05-15 20:20:59]set names utf8
+[2018-05-15 20:20:59]desc `gj_naviga`
+[2018-05-15 20:20:59]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:20:59]desc `gj_webset`
+[2018-05-15 20:20:59]select * from `gj_webset` where 1
+[2018-05-15 20:21:11]set names utf8
+[2018-05-15 20:21:11]desc `gj_naviga`
+[2018-05-15 20:21:11]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:21:11]desc `gj_webset`
+[2018-05-15 20:21:11]select * from `gj_webset` where 1
+[2018-05-15 20:21:35]set names utf8
+[2018-05-15 20:21:35]desc `gj_naviga`
+[2018-05-15 20:21:35]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:21:35]desc `gj_webset`
+[2018-05-15 20:21:35]select * from `gj_webset` where 1
+[2018-05-15 20:21:35]desc `gj_switchable`
+[2018-05-15 20:21:35]select * from `gj_switchable` where 1 order by switchable_order desc
+[2018-05-15 20:21:35]desc `gj_work`
+[2018-05-15 20:21:35]select * from `gj_work` where 1 order by work_order
+[2018-05-15 20:21:50]set names utf8
+[2018-05-15 20:21:50]desc `gj_naviga`
+[2018-05-15 20:21:50]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:21:50]desc `gj_webset`
+[2018-05-15 20:21:50]select * from `gj_webset` where 1
+[2018-05-15 20:23:27]set names utf8
+[2018-05-15 20:23:27]desc `gj_naviga`
+[2018-05-15 20:23:27]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:23:27]desc `gj_webset`
+[2018-05-15 20:23:27]select * from `gj_webset` where 1
+[2018-05-15 20:23:30]set names utf8
+[2018-05-15 20:23:30]desc `gj_naviga`
+[2018-05-15 20:23:30]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:23:30]desc `gj_webset`
+[2018-05-15 20:23:31]select * from `gj_webset` where 1
+[2018-05-15 20:23:53]set names utf8
+[2018-05-15 20:23:53]desc `gj_naviga`
+[2018-05-15 20:23:53]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:23:53]desc `gj_webset`
+[2018-05-15 20:23:53]select * from `gj_webset` where 1
+[2018-05-15 20:24:39]set names utf8
+[2018-05-15 20:24:39]desc `gj_naviga`
+[2018-05-15 20:24:39]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:24:39]desc `gj_webset`
+[2018-05-15 20:24:39]select * from `gj_webset` where 1
+[2018-05-15 20:24:48]set names utf8
+[2018-05-15 20:24:48]desc `gj_naviga`
+[2018-05-15 20:24:48]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:24:48]desc `gj_webset`
+[2018-05-15 20:24:48]select * from `gj_webset` where 1
+[2018-05-15 20:24:48]set names utf8
+[2018-05-15 20:24:48]desc `gj_naviga`
+[2018-05-15 20:24:48]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:24:48]desc `gj_webset`
+[2018-05-15 20:24:48]select * from `gj_webset` where 1
+[2018-05-15 20:24:49]set names utf8
+[2018-05-15 20:24:49]desc `gj_naviga`
+[2018-05-15 20:24:49]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:24:49]desc `gj_webset`
+[2018-05-15 20:24:49]select * from `gj_webset` where 1
+[2018-05-15 20:24:49]set names utf8
+[2018-05-15 20:24:49]desc `gj_naviga`
+[2018-05-15 20:24:49]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:24:49]desc `gj_webset`
+[2018-05-15 20:24:49]select * from `gj_webset` where 1
+[2018-05-15 20:25:05]set names utf8
+[2018-05-15 20:25:05]desc `gj_naviga`
+[2018-05-15 20:25:05]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:25:05]desc `gj_webset`
+[2018-05-15 20:25:05]select * from `gj_webset` where 1
+[2018-05-15 20:25:05]desc `gj_work`
+[2018-05-15 20:25:05]select * from `gj_work` where 1 order by work_order
+[2018-05-15 20:25:12]set names utf8
+[2018-05-15 20:25:12]desc `gj_naviga`
+[2018-05-15 20:25:12]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:25:12]desc `gj_webset`
+[2018-05-15 20:25:12]select * from `gj_webset` where 1
+[2018-05-15 20:25:16]set names utf8
+[2018-05-15 20:25:16]desc `gj_naviga`
+[2018-05-15 20:25:16]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:25:16]desc `gj_webset`
+[2018-05-15 20:25:16]select * from `gj_webset` where 1
+[2018-05-15 20:25:16]desc `gj_work`
+[2018-05-15 20:25:16]select * from `gj_work` where 1 order by work_order
+[2018-05-15 20:25:18]set names utf8
+[2018-05-15 20:25:18]desc `gj_naviga`
+[2018-05-15 20:25:18]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:25:18]desc `gj_webset`
+[2018-05-15 20:25:18]select * from `gj_webset` where 1
+[2018-05-15 20:25:18]desc `gj_member`
+[2018-05-15 20:25:18]select * from `gj_member` where 1
+[2018-05-15 20:25:20]set names utf8
+[2018-05-15 20:25:20]desc `gj_naviga`
+[2018-05-15 20:25:20]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:25:20]desc `gj_webset`
+[2018-05-15 20:25:20]select * from `gj_webset` where 1
+[2018-05-15 20:25:20]desc `gj_work`
+[2018-05-15 20:25:20]select * from `gj_work` where 1 order by work_order
+[2018-05-15 20:25:23]set names utf8
+[2018-05-15 20:25:23]desc `gj_naviga`
+[2018-05-15 20:25:23]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:25:24]desc `gj_webset`
+[2018-05-15 20:25:24]select * from `gj_webset` where 1
+[2018-05-15 20:25:25]desc `gj_arrondi`
+[2018-05-15 20:25:25]select * from `gj_arrondi` as a left join `gj_member`as m on a.arrondi_memberid = m.member_id where 1 order by member_id desc limit 0,5
+[2018-05-15 20:25:26]select count(*) from `gj_arrondi` where 1
+[2018-05-15 20:25:26]desc `gj_member`
+[2018-05-15 20:25:26]select count(*) from `gj_member` where 1
+[2018-05-15 20:25:26]select count(*) from `gj_arrondi` where 1
+[2018-05-15 20:25:30]set names utf8
+[2018-05-15 20:25:30]desc `gj_naviga`
+[2018-05-15 20:25:30]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:25:30]desc `gj_webset`
+[2018-05-15 20:25:30]select * from `gj_webset` where 1
+[2018-05-15 20:25:30]desc `gj_arrondi`
+[2018-05-15 20:25:30]select * from `gj_arrondi` as a left join `gj_member` as m on a.arrondi_memberid = m.member_id where a.arrondi_id = '1'
+[2018-05-15 20:25:49]set names utf8
+[2018-05-15 20:25:49]desc `gj_naviga`
+[2018-05-15 20:25:49]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:25:49]desc `gj_webset`
+[2018-05-15 20:25:49]select * from `gj_webset` where 1
+[2018-05-15 20:26:56]set names utf8
+[2018-05-15 20:26:56]desc `gj_naviga`
+[2018-05-15 20:26:56]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:26:56]desc `gj_webset`
+[2018-05-15 20:26:56]select * from `gj_webset` where 1
+[2018-05-15 20:26:58]set names utf8
+[2018-05-15 20:26:58]desc `gj_naviga`
+[2018-05-15 20:26:58]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:26:58]desc `gj_webset`
+[2018-05-15 20:26:58]select * from `gj_webset` where 1
+[2018-05-15 20:26:58]desc `gj_work`
+[2018-05-15 20:26:58]select * from `gj_work` where 1 order by work_order
+[2018-05-15 20:27:01]set names utf8
+[2018-05-15 20:27:01]desc `gj_naviga`
+[2018-05-15 20:27:01]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:27:01]desc `gj_webset`
+[2018-05-15 20:27:01]select * from `gj_webset` where 1
+[2018-05-15 20:27:01]desc `gj_arrondi`
+[2018-05-15 20:27:01]select * from `gj_arrondi` as a left join `gj_member`as m on a.arrondi_memberid = m.member_id where 1 order by member_id desc limit 0,5
+[2018-05-15 20:27:01]select count(*) from `gj_arrondi` where 1
+[2018-05-15 20:27:01]desc `gj_member`
+[2018-05-15 20:27:01]select count(*) from `gj_member` where 1
+[2018-05-15 20:27:01]select count(*) from `gj_arrondi` where 1
+[2018-05-15 20:27:02]set names utf8
+[2018-05-15 20:27:02]desc `gj_naviga`
+[2018-05-15 20:27:02]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:27:02]desc `gj_webset`
+[2018-05-15 20:27:02]select * from `gj_webset` where 1
+[2018-05-15 20:27:02]desc `gj_arrondi`
+[2018-05-15 20:27:03]select * from `gj_arrondi` as a left join `gj_member` as m on a.arrondi_memberid = m.member_id where a.arrondi_id = '1'
+[2018-05-15 20:27:08]set names utf8
+[2018-05-15 20:27:08]desc `gj_naviga`
+[2018-05-15 20:27:08]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:27:08]desc `gj_webset`
+[2018-05-15 20:27:08]select * from `gj_webset` where 1
+[2018-05-15 20:27:59]set names utf8
+[2018-05-15 20:27:59]desc `gj_naviga`
+[2018-05-15 20:27:59]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:27:59]desc `gj_webset`
+[2018-05-15 20:27:59]select * from `gj_webset` where 1
+[2018-05-15 20:28:00]set names utf8
+[2018-05-15 20:28:00]desc `gj_naviga`
+[2018-05-15 20:28:00]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:28:00]desc `gj_webset`
+[2018-05-15 20:28:00]select * from `gj_webset` where 1
+[2018-05-15 20:28:02]set names utf8
+[2018-05-15 20:28:02]desc `gj_naviga`
+[2018-05-15 20:28:02]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:28:02]desc `gj_webset`
+[2018-05-15 20:28:02]select * from `gj_webset` where 1
+[2018-05-15 20:28:02]desc `gj_arrondi`
+[2018-05-15 20:28:02]select * from `gj_arrondi` as a left join `gj_member`as m on a.arrondi_memberid = m.member_id where 1 order by member_id desc limit 0,5
+[2018-05-15 20:28:02]select count(*) from `gj_arrondi` where 1
+[2018-05-15 20:28:02]desc `gj_member`
+[2018-05-15 20:28:02]select count(*) from `gj_member` where 1
+[2018-05-15 20:28:02]select count(*) from `gj_arrondi` where 1
+[2018-05-15 20:28:06]set names utf8
+[2018-05-15 20:28:06]desc `gj_naviga`
+[2018-05-15 20:28:06]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:28:06]desc `gj_webset`
+[2018-05-15 20:28:06]select * from `gj_webset` where 1
+[2018-05-15 20:28:06]desc `gj_arrondi`
+[2018-05-15 20:28:06]select * from `gj_arrondi` as a left join `gj_member` as m on a.arrondi_memberid = m.member_id where a.arrondi_id = '1'
+[2018-05-15 20:28:08]set names utf8
+[2018-05-15 20:28:08]desc `gj_naviga`
+[2018-05-15 20:28:08]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:28:08]desc `gj_webset`
+[2018-05-15 20:28:08]select * from `gj_webset` where 1
+[2018-05-15 20:28:16]set names utf8
+[2018-05-15 20:28:16]desc `gj_naviga`
+[2018-05-15 20:28:16]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:28:16]desc `gj_webset`
+[2018-05-15 20:28:16]select * from `gj_webset` where 1
+[2018-05-15 20:28:39]set names utf8
+[2018-05-15 20:28:39]desc `gj_naviga`
+[2018-05-15 20:28:39]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:28:39]desc `gj_webset`
+[2018-05-15 20:28:39]select * from `gj_webset` where 1
+[2018-05-15 20:28:48]set names utf8
+[2018-05-15 20:28:48]desc `gj_naviga`
+[2018-05-15 20:28:48]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:28:48]desc `gj_webset`
+[2018-05-15 20:28:48]select * from `gj_webset` where 1
+[2018-05-15 20:28:48]desc `gj_arrondi`
+[2018-05-15 20:28:48]select * from `gj_arrondi` as a left join `gj_member`as m on a.arrondi_memberid = m.member_id where 1 order by member_id desc limit 0,5
+[2018-05-15 20:28:48]select count(*) from `gj_arrondi` where 1
+[2018-05-15 20:28:48]desc `gj_member`
+[2018-05-15 20:28:48]select count(*) from `gj_member` where 1
+[2018-05-15 20:28:48]select count(*) from `gj_arrondi` where 1
+[2018-05-15 20:28:49]set names utf8
+[2018-05-15 20:28:49]desc `gj_naviga`
+[2018-05-15 20:28:49]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:28:49]desc `gj_webset`
+[2018-05-15 20:28:50]select * from `gj_webset` where 1
+[2018-05-15 20:28:50]desc `gj_arrondi`
+[2018-05-15 20:28:50]select * from `gj_arrondi` as a left join `gj_member` as m on a.arrondi_memberid = m.member_id where a.arrondi_id = '1'
+[2018-05-15 20:29:04]set names utf8
+[2018-05-15 20:29:04]desc `gj_naviga`
+[2018-05-15 20:29:04]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:29:04]desc `gj_webset`
+[2018-05-15 20:29:04]select * from `gj_webset` where 1
+[2018-05-15 20:29:13]set names utf8
+[2018-05-15 20:29:13]desc `gj_naviga`
+[2018-05-15 20:29:13]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:29:13]desc `gj_webset`
+[2018-05-15 20:29:13]select * from `gj_webset` where 1
+[2018-05-15 20:29:18]set names utf8
+[2018-05-15 20:29:18]desc `gj_naviga`
+[2018-05-15 20:29:18]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:29:18]desc `gj_webset`
+[2018-05-15 20:29:18]select * from `gj_webset` where 1
+[2018-05-15 20:29:18]desc `gj_arrondi`
+[2018-05-15 20:29:18]select * from `gj_arrondi` as a left join `gj_member`as m on a.arrondi_memberid = m.member_id where 1 order by member_id desc limit 0,5
+[2018-05-15 20:29:18]select count(*) from `gj_arrondi` where 1
+[2018-05-15 20:29:18]desc `gj_member`
+[2018-05-15 20:29:18]select count(*) from `gj_member` where 1
+[2018-05-15 20:29:18]select count(*) from `gj_arrondi` where 1
+[2018-05-15 20:29:20]set names utf8
+[2018-05-15 20:29:20]desc `gj_naviga`
+[2018-05-15 20:29:20]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:29:20]desc `gj_webset`
+[2018-05-15 20:29:20]select * from `gj_webset` where 1
+[2018-05-15 20:29:20]desc `gj_arrondi`
+[2018-05-15 20:29:20]select * from `gj_arrondi` as a left join `gj_member` as m on a.arrondi_memberid = m.member_id where a.arrondi_id = '1'
+[2018-05-15 20:30:29]set names utf8
+[2018-05-15 20:30:29]desc `gj_naviga`
+[2018-05-15 20:30:29]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:30:29]desc `gj_webset`
+[2018-05-15 20:30:29]select * from `gj_webset` where 1
+[2018-05-15 20:30:29]desc `gj_arrondi`
+[2018-05-15 20:30:29]select * from `gj_arrondi` as a left join `gj_member` as m on a.arrondi_memberid = m.member_id where a.arrondi_id = '1'
+[2018-05-15 20:30:41]set names utf8
+[2018-05-15 20:30:41]desc `gj_naviga`
+[2018-05-15 20:30:41]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:30:41]desc `gj_webset`
+[2018-05-15 20:30:41]select * from `gj_webset` where 1
+[2018-05-15 20:32:11]set names utf8
+[2018-05-15 20:32:11]desc `gj_naviga`
+[2018-05-15 20:32:11]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:32:11]desc `gj_webset`
+[2018-05-15 20:32:11]select * from `gj_webset` where 1
+[2018-05-15 20:32:13]set names utf8
+[2018-05-15 20:32:13]desc `gj_naviga`
+[2018-05-15 20:32:13]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:32:13]desc `gj_webset`
+[2018-05-15 20:32:13]select * from `gj_webset` where 1
+[2018-05-15 20:32:16]set names utf8
+[2018-05-15 20:32:16]desc `gj_naviga`
+[2018-05-15 20:32:16]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:32:16]desc `gj_webset`
+[2018-05-15 20:32:16]select * from `gj_webset` where 1
+[2018-05-15 20:32:16]desc `gj_arrondi`
+[2018-05-15 20:32:16]select * from `gj_arrondi` as a left join `gj_member`as m on a.arrondi_memberid = m.member_id where 1 order by member_id desc limit 0,5
+[2018-05-15 20:32:16]select count(*) from `gj_arrondi` where 1
+[2018-05-15 20:32:16]desc `gj_member`
+[2018-05-15 20:32:16]select count(*) from `gj_member` where 1
+[2018-05-15 20:32:16]select count(*) from `gj_arrondi` where 1
+[2018-05-15 20:32:18]set names utf8
+[2018-05-15 20:32:18]desc `gj_naviga`
+[2018-05-15 20:32:18]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:32:18]desc `gj_webset`
+[2018-05-15 20:32:18]select * from `gj_webset` where 1
+[2018-05-15 20:32:18]desc `gj_arrondi`
+[2018-05-15 20:32:18]select * from `gj_arrondi` as a left join `gj_member` as m on a.arrondi_memberid = m.member_id where a.arrondi_id = '1'
+[2018-05-15 20:32:21]set names utf8
+[2018-05-15 20:32:21]desc `gj_naviga`
+[2018-05-15 20:32:21]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:32:21]desc `gj_webset`
+[2018-05-15 20:32:21]select * from `gj_webset` where 1
+[2018-05-15 20:32:21]desc `gj_work`
+[2018-05-15 20:32:21]select * from `gj_work` where 1 order by work_order
+[2018-05-15 20:32:49]set names utf8
+[2018-05-15 20:32:49]desc `gj_naviga`
+[2018-05-15 20:32:49]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:32:49]desc `gj_webset`
+[2018-05-15 20:32:49]select * from `gj_webset` where 1
+[2018-05-15 20:32:49]desc `gj_work`
+[2018-05-15 20:32:49]select * from `gj_work` where 1 order by work_order
+[2018-05-15 20:32:50]set names utf8
+[2018-05-15 20:32:50]desc `gj_naviga`
+[2018-05-15 20:32:50]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:32:50]desc `gj_webset`
+[2018-05-15 20:32:50]select * from `gj_webset` where 1
+[2018-05-15 20:35:46]set names utf8
+[2018-05-15 20:35:46]desc `gj_naviga`
+[2018-05-15 20:35:46]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:35:46]desc `gj_webset`
+[2018-05-15 20:35:46]select * from `gj_webset` where 1
+[2018-05-15 20:35:47]set names utf8
+[2018-05-15 20:35:47]desc `gj_naviga`
+[2018-05-15 20:35:47]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 20:35:47]desc `gj_webset`
+[2018-05-15 20:35:47]select * from `gj_webset` where 1
+[2018-05-15 21:02:20]set names utf8
+[2018-05-15 21:02:20]desc `gj_naviga`
+[2018-05-15 21:02:20]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:02:20]desc `gj_webset`
+[2018-05-15 21:02:20]select * from `gj_webset` where 1
+[2018-05-15 21:02:21]set names utf8
+[2018-05-15 21:02:21]desc `gj_naviga`
+[2018-05-15 21:02:21]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:02:21]desc `gj_webset`
+[2018-05-15 21:02:21]select * from `gj_webset` where 1
+[2018-05-15 21:02:21]set names utf8
+[2018-05-15 21:02:21]desc `gj_naviga`
+[2018-05-15 21:02:21]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:02:21]desc `gj_webset`
+[2018-05-15 21:02:21]select * from `gj_webset` where 1
+[2018-05-15 21:02:21]set names utf8
+[2018-05-15 21:02:21]desc `gj_naviga`
+[2018-05-15 21:02:21]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:02:21]desc `gj_webset`
+[2018-05-15 21:02:21]select * from `gj_webset` where 1
+[2018-05-15 21:02:22]set names utf8
+[2018-05-15 21:02:22]desc `gj_naviga`
+[2018-05-15 21:02:22]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:02:22]desc `gj_webset`
+[2018-05-15 21:02:22]select * from `gj_webset` where 1
+[2018-05-15 21:02:22]desc `gj_switchable`
+[2018-05-15 21:02:22]select * from `gj_switchable` where 1 order by switchable_order desc
+[2018-05-15 21:02:22]desc `gj_work`
+[2018-05-15 21:02:22]select * from `gj_work` where 1 order by work_order
+[2018-05-15 21:02:24]set names utf8
+[2018-05-15 21:02:24]desc `gj_naviga`
+[2018-05-15 21:02:24]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:02:24]desc `gj_webset`
+[2018-05-15 21:02:24]select * from `gj_webset` where 1
+[2018-05-15 21:02:24]desc `gj_arrondi`
+[2018-05-15 21:02:24]select * from `gj_arrondi` as a left join `gj_member`as m on a.arrondi_memberid = m.member_id where 1 order by member_id desc limit 0,5
+[2018-05-15 21:02:24]select count(*) from `gj_arrondi` where 1
+[2018-05-15 21:02:24]desc `gj_member`
+[2018-05-15 21:02:24]select count(*) from `gj_member` where 1
+[2018-05-15 21:02:24]select count(*) from `gj_arrondi` where 1
+[2018-05-15 21:02:25]set names utf8
+[2018-05-15 21:02:25]desc `gj_naviga`
+[2018-05-15 21:02:25]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:02:25]desc `gj_webset`
+[2018-05-15 21:02:25]select * from `gj_webset` where 1
+[2018-05-15 21:02:25]desc `gj_arrondi`
+[2018-05-15 21:02:25]select * from `gj_arrondi` as a left join `gj_member` as m on a.arrondi_memberid = m.member_id where a.arrondi_id = '1'
+[2018-05-15 21:02:29]set names utf8
+[2018-05-15 21:02:29]desc `gj_naviga`
+[2018-05-15 21:02:29]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:02:29]desc `gj_webset`
+[2018-05-15 21:02:29]select * from `gj_webset` where 1
+[2018-05-15 21:02:30]set names utf8
+[2018-05-15 21:02:30]desc `gj_naviga`
+[2018-05-15 21:02:30]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:02:30]desc `gj_webset`
+[2018-05-15 21:02:30]select * from `gj_webset` where 1
+[2018-05-15 21:02:31]set names utf8
+[2018-05-15 21:02:31]desc `gj_naviga`
+[2018-05-15 21:02:31]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:02:31]desc `gj_webset`
+[2018-05-15 21:02:31]select * from `gj_webset` where 1
+[2018-05-15 21:02:46]set names utf8
+[2018-05-15 21:02:46]desc `gj_naviga`
+[2018-05-15 21:02:46]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:02:46]desc `gj_webset`
+[2018-05-15 21:02:46]select * from `gj_webset` where 1
+[2018-05-15 21:02:47]set names utf8
+[2018-05-15 21:02:47]desc `gj_naviga`
+[2018-05-15 21:02:47]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:02:47]desc `gj_webset`
+[2018-05-15 21:02:47]select * from `gj_webset` where 1
+[2018-05-15 21:04:31]set names utf8
+[2018-05-15 21:04:31]desc `gj_naviga`
+[2018-05-15 21:04:31]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:04:31]desc `gj_webset`
+[2018-05-15 21:04:31]select * from `gj_webset` where 1
+[2018-05-15 21:04:31]set names utf8
+[2018-05-15 21:04:31]desc `gj_naviga`
+[2018-05-15 21:04:31]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:04:31]desc `gj_webset`
+[2018-05-15 21:04:31]select * from `gj_webset` where 1
+[2018-05-15 21:04:32]set names utf8
+[2018-05-15 21:04:32]desc `gj_naviga`
+[2018-05-15 21:04:32]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:04:32]desc `gj_webset`
+[2018-05-15 21:04:32]select * from `gj_webset` where 1
+[2018-05-15 21:04:32]set names utf8
+[2018-05-15 21:04:32]desc `gj_naviga`
+[2018-05-15 21:04:32]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:04:32]desc `gj_webset`
+[2018-05-15 21:04:32]select * from `gj_webset` where 1
+[2018-05-15 21:06:31]set names utf8
+[2018-05-15 21:06:31]desc `gj_naviga`
+[2018-05-15 21:06:31]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:06:31]desc `gj_webset`
+[2018-05-15 21:06:31]select * from `gj_webset` where 1
+[2018-05-15 21:06:31]set names utf8
+[2018-05-15 21:06:31]desc `gj_naviga`
+[2018-05-15 21:06:31]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:06:31]desc `gj_webset`
+[2018-05-15 21:06:31]select * from `gj_webset` where 1
+[2018-05-15 21:06:32]set names utf8
+[2018-05-15 21:06:32]desc `gj_naviga`
+[2018-05-15 21:06:32]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:06:32]desc `gj_webset`
+[2018-05-15 21:06:32]select * from `gj_webset` where 1
+[2018-05-15 21:06:32]set names utf8
+[2018-05-15 21:06:32]desc `gj_naviga`
+[2018-05-15 21:06:32]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:06:32]desc `gj_webset`
+[2018-05-15 21:06:32]select * from `gj_webset` where 1
+[2018-05-15 21:06:32]set names utf8
+[2018-05-15 21:06:32]desc `gj_naviga`
+[2018-05-15 21:06:32]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:06:32]desc `gj_webset`
+[2018-05-15 21:06:32]select * from `gj_webset` where 1
+[2018-05-15 21:06:32]set names utf8
+[2018-05-15 21:06:32]desc `gj_naviga`
+[2018-05-15 21:06:32]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:06:32]desc `gj_webset`
+[2018-05-15 21:06:32]select * from `gj_webset` where 1
+[2018-05-15 21:06:32]set names utf8
+[2018-05-15 21:06:32]desc `gj_naviga`
+[2018-05-15 21:06:32]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:06:32]desc `gj_webset`
+[2018-05-15 21:06:32]select * from `gj_webset` where 1
+[2018-05-15 21:06:33]set names utf8
+[2018-05-15 21:06:33]desc `gj_naviga`
+[2018-05-15 21:06:33]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:06:33]desc `gj_webset`
+[2018-05-15 21:06:33]select * from `gj_webset` where 1
+[2018-05-15 21:06:33]set names utf8
+[2018-05-15 21:06:33]desc `gj_naviga`
+[2018-05-15 21:06:33]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:06:33]desc `gj_webset`
+[2018-05-15 21:06:33]select * from `gj_webset` where 1
+[2018-05-15 21:06:33]set names utf8
+[2018-05-15 21:06:33]desc `gj_naviga`
+[2018-05-15 21:06:33]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:06:33]desc `gj_webset`
+[2018-05-15 21:06:33]select * from `gj_webset` where 1
+[2018-05-15 21:06:33]set names utf8
+[2018-05-15 21:06:33]desc `gj_naviga`
+[2018-05-15 21:06:33]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:06:33]desc `gj_webset`
+[2018-05-15 21:06:33]select * from `gj_webset` where 1
+[2018-05-15 21:06:33]set names utf8
+[2018-05-15 21:06:33]desc `gj_naviga`
+[2018-05-15 21:06:33]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:06:33]desc `gj_webset`
+[2018-05-15 21:06:33]select * from `gj_webset` where 1
+[2018-05-15 21:06:34]set names utf8
+[2018-05-15 21:06:34]desc `gj_naviga`
+[2018-05-15 21:06:34]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:06:34]desc `gj_webset`
+[2018-05-15 21:06:34]select * from `gj_webset` where 1
+[2018-05-15 21:06:34]set names utf8
+[2018-05-15 21:06:34]desc `gj_naviga`
+[2018-05-15 21:06:34]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:06:34]desc `gj_webset`
+[2018-05-15 21:06:34]select * from `gj_webset` where 1
+[2018-05-15 21:06:51]set names utf8
+[2018-05-15 21:06:51]desc `gj_naviga`
+[2018-05-15 21:06:51]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:06:51]desc `gj_webset`
+[2018-05-15 21:06:51]select * from `gj_webset` where 1
+[2018-05-15 21:07:04]set names utf8
+[2018-05-15 21:07:04]desc `gj_naviga`
+[2018-05-15 21:07:04]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:07:04]desc `gj_webset`
+[2018-05-15 21:07:04]select * from `gj_webset` where 1
+[2018-05-15 21:07:04]desc `gj_arrondi`
+[2018-05-15 21:07:04]select * from `gj_arrondi` as a left join `gj_member`as m on a.arrondi_memberid = m.member_id where 1 order by member_id desc limit 0,5
+[2018-05-15 21:07:04]select count(*) from `gj_arrondi` where 1
+[2018-05-15 21:07:04]desc `gj_member`
+[2018-05-15 21:07:04]select count(*) from `gj_member` where 1
+[2018-05-15 21:07:04]select count(*) from `gj_arrondi` where 1
+[2018-05-15 21:07:05]set names utf8
+[2018-05-15 21:07:05]desc `gj_naviga`
+[2018-05-15 21:07:06]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:07:06]desc `gj_webset`
+[2018-05-15 21:07:06]select * from `gj_webset` where 1
+[2018-05-15 21:07:06]desc `gj_arrondi`
+[2018-05-15 21:07:06]select * from `gj_arrondi` as a left join `gj_member` as m on a.arrondi_memberid = m.member_id where a.arrondi_id = '1'
+[2018-05-15 21:07:06]set names utf8
+[2018-05-15 21:07:06]desc `gj_naviga`
+[2018-05-15 21:07:06]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:07:06]desc `gj_webset`
+[2018-05-15 21:07:06]select * from `gj_webset` where 1
+[2018-05-15 21:07:06]desc `gj_arrondi`
+[2018-05-15 21:07:07]select * from `gj_arrondi` as a left join `gj_member` as m on a.arrondi_memberid = m.member_id where a.arrondi_id = '1'
+[2018-05-15 21:07:11]set names utf8
+[2018-05-15 21:07:11]desc `gj_naviga`
+[2018-05-15 21:07:11]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:07:11]desc `gj_webset`
+[2018-05-15 21:07:11]select * from `gj_webset` where 1
+[2018-05-15 21:08:13]set names utf8
+[2018-05-15 21:08:13]desc `gj_naviga`
+[2018-05-15 21:08:13]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:08:13]desc `gj_webset`
+[2018-05-15 21:08:13]select * from `gj_webset` where 1
+[2018-05-15 21:09:53]set names utf8
+[2018-05-15 21:09:53]desc `gj_naviga`
+[2018-05-15 21:09:53]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:09:53]desc `gj_webset`
+[2018-05-15 21:09:53]select * from `gj_webset` where 1
+[2018-05-15 21:10:50]set names utf8
+[2018-05-15 21:10:50]desc `gj_naviga`
+[2018-05-15 21:10:50]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:10:50]desc `gj_webset`
+[2018-05-15 21:10:50]select * from `gj_webset` where 1
+[2018-05-15 21:10:55]set names utf8
+[2018-05-15 21:10:55]desc `gj_naviga`
+[2018-05-15 21:10:55]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:10:55]desc `gj_webset`
+[2018-05-15 21:10:55]select * from `gj_webset` where 1
+[2018-05-15 21:10:55]desc `gj_arrondi`
+[2018-05-15 21:10:55]select * from `gj_arrondi` as a left join `gj_member`as m on a.arrondi_memberid = m.member_id where 1 order by member_id desc limit 0,5
+[2018-05-15 21:10:55]select count(*) from `gj_arrondi` where 1
+[2018-05-15 21:10:55]desc `gj_member`
+[2018-05-15 21:10:55]select count(*) from `gj_member` where 1
+[2018-05-15 21:10:55]select count(*) from `gj_arrondi` where 1
+[2018-05-15 21:10:56]set names utf8
+[2018-05-15 21:10:56]desc `gj_naviga`
+[2018-05-15 21:10:56]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:10:56]desc `gj_webset`
+[2018-05-15 21:10:56]select * from `gj_webset` where 1
+[2018-05-15 21:10:56]desc `gj_arrondi`
+[2018-05-15 21:10:56]select * from `gj_arrondi` as a left join `gj_member` as m on a.arrondi_memberid = m.member_id where a.arrondi_id = '1'
+[2018-05-15 21:11:12]set names utf8
+[2018-05-15 21:11:12]desc `gj_naviga`
+[2018-05-15 21:11:12]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:11:12]desc `gj_webset`
+[2018-05-15 21:11:12]select * from `gj_webset` where 1
+[2018-05-15 21:11:12]desc `gj_work`
+[2018-05-15 21:11:12]select * from `gj_work` where 1 order by work_order
+[2018-05-15 21:11:13]set names utf8
+[2018-05-15 21:11:13]desc `gj_naviga`
+[2018-05-15 21:11:13]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:11:13]desc `gj_webset`
+[2018-05-15 21:11:13]select * from `gj_webset` where 1
+[2018-05-15 21:11:17]set names utf8
+[2018-05-15 21:11:17]desc `gj_naviga`
+[2018-05-15 21:11:17]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:11:17]desc `gj_webset`
+[2018-05-15 21:11:17]select * from `gj_webset` where 1
+[2018-05-15 21:11:17]desc `gj_member`
+[2018-05-15 21:11:17]select * from `gj_member` where 1
+[2018-05-15 21:11:21]set names utf8
+[2018-05-15 21:11:21]desc `gj_naviga`
+[2018-05-15 21:11:21]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:11:21]desc `gj_webset`
+[2018-05-15 21:11:21]select * from `gj_webset` where 1
+[2018-05-15 21:11:21]desc `gj_member`
+[2018-05-15 21:11:21]select * from `gj_member` where 1
+[2018-05-15 21:12:16]set names utf8
+[2018-05-15 21:12:16]desc `gj_naviga`
+[2018-05-15 21:12:16]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:12:16]desc `gj_webset`
+[2018-05-15 21:12:16]select * from `gj_webset` where 1
+[2018-05-15 21:12:16]desc `gj_arrondi`
+[2018-05-15 21:12:16]select * from `gj_arrondi` as a left join `gj_member`as m on a.arrondi_memberid = m.member_id where 1 order by member_id desc limit 0,5
+[2018-05-15 21:12:16]select count(*) from `gj_arrondi` where 1
+[2018-05-15 21:12:16]desc `gj_member`
+[2018-05-15 21:12:16]select count(*) from `gj_member` where 1
+[2018-05-15 21:12:16]select count(*) from `gj_arrondi` where 1
+[2018-05-15 21:12:18]set names utf8
+[2018-05-15 21:12:18]desc `gj_naviga`
+[2018-05-15 21:12:18]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:12:18]desc `gj_webset`
+[2018-05-15 21:12:18]select * from `gj_webset` where 1
+[2018-05-15 21:12:18]desc `gj_arrondi`
+[2018-05-15 21:12:18]select * from `gj_arrondi` as a left join `gj_member` as m on a.arrondi_memberid = m.member_id where a.arrondi_id = '1'
+[2018-05-15 21:13:58]set names utf8
+[2018-05-15 21:13:58]desc `gj_naviga`
+[2018-05-15 21:13:58]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-15 21:13:58]desc `gj_webset`
+[2018-05-15 21:13:58]select * from `gj_webset` where 1
+[2018-05-15 21:13:58]desc `gj_switchable`
+[2018-05-15 21:13:58]select * from `gj_switchable` where 1 order by switchable_order desc
+[2018-05-15 21:13:58]desc `gj_work`
+[2018-05-15 21:13:58]select * from `gj_work` where 1 order by work_order

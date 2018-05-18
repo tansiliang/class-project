@@ -1,0 +1,26 @@
+$("decoment").ready(function(){
+    $("#check_css").click(function(){
+            if($("#automatic").is(":checked")){
+                $("#automatic").prop("checked",true);//切换状态
+                $(this).prop('class','glyphicon glyphicon-ok');
+            }else{
+                $("#automatic").prop("checked",false);
+                $(this).prop("class","");
+            } 
+    });
+
+    //鼠标移入登录框时更改按钮文字
+    $("#login_refer").mouseenter(function(){
+        $(this).val("登录");
+    });
+    $("#login_refer").mouseleave(function(){
+        $(this).val("login");
+    });
+
+    $("#content").mouseenter(function(){
+        $(this).css({opacity:'1'});
+    });
+    $("#content").mouseleave(function(){
+        $(this).css({opacity:'0.5'});
+    });
+});

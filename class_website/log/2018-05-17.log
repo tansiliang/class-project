@@ -1,0 +1,297 @@
+[2018-05-17 21:19:02]desc `gj_member`
+[2018-05-17 21:19:02]select * from `gj_member` where member_studentid = 'dfsdf'
+[2018-05-17 21:19:02]select * from `gj_member` where member_studentid = 'dfsdf'
+[2018-05-17 21:19:02]set names utf8
+[2018-05-17 21:19:02]desc `gj_member`
+[2018-05-17 21:19:02]select * from `gj_member` where member_studentid = 'dfsdf'
+[2018-05-17 21:19:03]set names utf8
+[2018-05-17 21:19:03]set names utf8
+[2018-05-17 21:19:03]desc `gj_member`
+[2018-05-17 21:19:03]desc `gj_member`
+[2018-05-17 21:19:03]select * from `gj_member` where member_studentid = 'dfsdf'
+[2018-05-17 21:19:03]select * from `gj_member` where member_studentid = 'dfsdf'
+[2018-05-17 21:22:00]set names utf8
+[2018-05-17 21:22:00]desc `gj_naviga`
+[2018-05-17 21:22:00]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-17 21:22:00]desc `gj_webset`
+[2018-05-17 21:22:00]select * from `gj_webset` where 1
+[2018-05-17 21:22:02]set names utf8
+[2018-05-17 21:22:02]desc `gj_member`
+[2018-05-17 21:22:02]select * from `gj_member` where member_studentid = 'df'
+[2018-05-17 21:22:02]set names utf8
+[2018-05-17 21:22:02]desc `gj_member`
+[2018-05-17 21:22:02]select * from `gj_member` where member_studentid = 'df'
+[2018-05-17 21:22:02]set names utf8
+[2018-05-17 21:22:02]desc `gj_member`
+[2018-05-17 21:22:02]select * from `gj_member` where member_studentid = 'dffd'
+[2018-05-17 21:22:03]set names utf8
+[2018-05-17 21:22:03]desc `gj_member`
+[2018-05-17 21:22:03]select * from `gj_member` where member_studentid = 'dffds'
+[2018-05-17 21:22:03]set names utf8
+[2018-05-17 21:22:03]desc `gj_member`
+[2018-05-17 21:22:03]select * from `gj_member` where member_studentid = 'dffdsf'
+[2018-05-17 21:22:03]set names utf8
+[2018-05-17 21:22:03]desc `gj_member`
+[2018-05-17 21:22:03]select * from `gj_member` where member_studentid = 'dffdsf'
+[2018-05-17 21:22:03]set names utf8
+[2018-05-17 21:22:03]desc `gj_member`
+[2018-05-17 21:22:03]select * from `gj_member` where member_studentid = 'dffdsfdf'
+[2018-05-17 21:22:04]set names utf8
+[2018-05-17 21:22:04]desc `gj_member`
+[2018-05-17 21:22:04]select * from `gj_member` where member_studentid = 'dffdsfdfd'
+[2018-05-17 21:22:04]set names utf8
+[2018-05-17 21:22:04]desc `gj_member`
+[2018-05-17 21:22:04]select * from `gj_member` where member_studentid = 'dffdsfdfds'
+[2018-05-17 21:22:04]set names utf8
+[2018-05-17 21:22:04]desc `gj_member`
+[2018-05-17 21:22:04]select * from `gj_member` where member_studentid = 'dffdsfdfds'
+[2018-05-17 21:22:04]set names utf8
+[2018-05-17 21:22:04]desc `gj_member`
+[2018-05-17 21:22:04]select * from `gj_member` where member_studentid = 'dffdsfdfdssd'
+[2018-05-17 21:22:05]set names utf8
+[2018-05-17 21:22:05]desc `gj_member`
+[2018-05-17 21:22:05]select * from `gj_member` where member_studentid = 'dffdsfdfdssdf'
+[2018-05-17 21:22:05]set names utf8
+[2018-05-17 21:22:05]desc `gj_member`
+[2018-05-17 21:22:05]select * from `gj_member` where member_studentid = 'dffdsfdfdssdfd'
+[2018-05-17 21:22:05]set names utf8
+[2018-05-17 21:22:05]desc `gj_member`
+[2018-05-17 21:22:05]select * from `gj_member` where member_studentid = 'dffdsfdfdssdfds'
+[2018-05-17 21:22:05]set names utf8
+[2018-05-17 21:22:05]desc `gj_member`
+[2018-05-17 21:22:05]select * from `gj_member` where member_studentid = 'dffdsfdfdssdfds'
+[2018-05-17 21:22:06]set names utf8
+[2018-05-17 21:22:06]desc `gj_member`
+[2018-05-17 21:22:06]select * from `gj_member` where member_studentid = 'dffdsfdfdssdfdsd'
+[2018-05-17 21:22:06]set names utf8
+[2018-05-17 21:22:06]desc `gj_member`
+[2018-05-17 21:22:06]select * from `gj_member` where member_studentid = 'dffdsfdfdssdfdsdf'
+[2018-05-17 21:22:07]set names utf8
+[2018-05-17 21:22:07]desc `gj_member`
+[2018-05-17 21:22:07]select * from `gj_member` where member_studentid = 'dffdsfdfdssdfdsdfd'
+[2018-05-17 21:22:07]set names utf8
+[2018-05-17 21:22:07]desc `gj_member`
+[2018-05-17 21:22:07]select * from `gj_member` where member_studentid = 'dffdsfdfdssdfdsdfdf'
+[2018-05-17 21:22:08]set names utf8
+[2018-05-17 21:22:08]desc `gj_member`
+[2018-05-17 21:22:08]select * from `gj_member` where member_studentid = 'dffdsfdfdssdfdsdfdff'
+[2018-05-17 21:23:35]set names utf8
+[2018-05-17 21:23:35]desc `gj_member`
+[2018-05-17 21:23:35]select * from `gj_member` where member_studentid = 'dffdsfdfdssdfdsdfdff'
+[2018-05-17 21:23:36]set names utf8
+[2018-05-17 21:23:36]desc `gj_naviga`
+[2018-05-17 21:23:36]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-17 21:23:36]desc `gj_webset`
+[2018-05-17 21:23:36]select * from `gj_webset` where 1
+[2018-05-17 21:23:36]set names utf8
+[2018-05-17 21:23:36]desc `gj_member`
+[2018-05-17 21:23:36]select * from `gj_member` where member_studentid = 'dffdsfdfdssdfdsdfdff'
+[2018-05-17 21:25:01]set names utf8
+[2018-05-17 21:25:01]desc `gj_naviga`
+[2018-05-17 21:25:01]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-17 21:25:01]desc `gj_webset`
+[2018-05-17 21:25:01]select * from `gj_webset` where 1
+[2018-05-17 21:25:03]set names utf8
+[2018-05-17 21:25:03]desc `gj_member`
+[2018-05-17 21:25:03]select * from `gj_member` where member_studentid = 'dfs'
+[2018-05-17 21:25:03]set names utf8
+[2018-05-17 21:25:03]desc `gj_member`
+[2018-05-17 21:25:04]select * from `gj_member` where member_studentid = 'dfs'
+[2018-05-17 21:25:04]set names utf8
+[2018-05-17 21:25:04]desc `gj_member`
+[2018-05-17 21:25:04]select * from `gj_member` where member_studentid = 'dfsjkf'
+[2018-05-17 21:25:04]set names utf8
+[2018-05-17 21:25:04]desc `gj_member`
+[2018-05-17 21:25:04]select * from `gj_member` where member_studentid = 'dfsjkfl'
+[2018-05-17 21:25:04]set names utf8
+[2018-05-17 21:25:04]desc `gj_member`
+[2018-05-17 21:25:04]select * from `gj_member` where member_studentid = 'dfsjkfl'
+[2018-05-17 21:25:04]set names utf8
+[2018-05-17 21:25:04]desc `gj_member`
+[2018-05-17 21:25:04]select * from `gj_member` where member_studentid = 'dfsjkfl'
+[2018-05-17 21:25:04]set names utf8
+[2018-05-17 21:25:04]desc `gj_member`
+[2018-05-17 21:25:04]select * from `gj_member` where member_studentid = 'dfsjkfl'
+[2018-05-17 21:25:04]set names utf8
+[2018-05-17 21:25:04]desc `gj_member`
+[2018-05-17 21:25:04]select * from `gj_member` where member_studentid = 'dfsjkf'
+[2018-05-17 21:25:04]set names utf8
+[2018-05-17 21:25:04]desc `gj_member`
+[2018-05-17 21:25:05]select * from `gj_member` where member_studentid = 'dfsjk'
+[2018-05-17 21:25:05]set names utf8
+[2018-05-17 21:25:05]desc `gj_member`
+[2018-05-17 21:25:05]select * from `gj_member` where member_studentid = 'dfsj'
+[2018-05-17 21:25:05]set names utf8
+[2018-05-17 21:25:05]desc `gj_member`
+[2018-05-17 21:25:05]select * from `gj_member` where member_studentid = 'dfs'
+[2018-05-17 21:25:05]set names utf8
+[2018-05-17 21:25:05]desc `gj_member`
+[2018-05-17 21:25:05]select * from `gj_member` where member_studentid = 'df'
+[2018-05-17 21:25:05]set names utf8
+[2018-05-17 21:25:05]desc `gj_member`
+[2018-05-17 21:25:05]select * from `gj_member` where member_studentid = 'd'
+[2018-05-17 21:25:07]set names utf8
+[2018-05-17 21:25:07]desc `gj_member`
+[2018-05-17 21:25:07]select * from `gj_member` where member_studentid = '2'
+[2018-05-17 21:25:08]set names utf8
+[2018-05-17 21:25:08]desc `gj_member`
+[2018-05-17 21:25:08]select * from `gj_member` where member_studentid = '20'
+[2018-05-17 21:25:08]set names utf8
+[2018-05-17 21:25:08]desc `gj_member`
+[2018-05-17 21:25:08]select * from `gj_member` where member_studentid = '201'
+[2018-05-17 21:25:08]set names utf8
+[2018-05-17 21:25:08]desc `gj_member`
+[2018-05-17 21:25:08]select * from `gj_member` where member_studentid = '2016'
+[2018-05-17 21:25:08]set names utf8
+[2018-05-17 21:25:08]desc `gj_member`
+[2018-05-17 21:25:08]select * from `gj_member` where member_studentid = '20162'
+[2018-05-17 21:25:08]set names utf8
+[2018-05-17 21:25:08]desc `gj_member`
+[2018-05-17 21:25:08]select * from `gj_member` where member_studentid = '201623'
+[2018-05-17 21:25:09]set names utf8
+[2018-05-17 21:25:09]desc `gj_member`
+[2018-05-17 21:25:09]select * from `gj_member` where member_studentid = '2016234'
+[2018-05-17 21:25:09]set names utf8
+[2018-05-17 21:25:09]desc `gj_member`
+[2018-05-17 21:25:09]select * from `gj_member` where member_studentid = '20162343'
+[2018-05-17 21:26:20]set names utf8
+[2018-05-17 21:26:20]desc `gj_naviga`
+[2018-05-17 21:26:20]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-17 21:26:20]desc `gj_webset`
+[2018-05-17 21:26:20]select * from `gj_webset` where 1
+[2018-05-17 21:26:52]set names utf8
+[2018-05-17 21:26:52]desc `gj_naviga`
+[2018-05-17 21:26:52]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-17 21:26:52]desc `gj_webset`
+[2018-05-17 21:26:52]select * from `gj_webset` where 1
+[2018-05-17 21:26:55]set names utf8
+[2018-05-17 21:26:55]desc `gj_member`
+[2018-05-17 21:26:55]select * from `gj_member` where member_studentid = '20162343'
+[2018-05-17 21:26:57]set names utf8
+[2018-05-17 21:26:57]set names utf8
+[2018-05-17 21:26:57]desc `gj_member`
+[2018-05-17 21:26:57]desc `gj_member`
+[2018-05-17 21:26:57]select * from `gj_member` where member_studentid = '20162343'
+[2018-05-17 21:26:58]set names utf8
+[2018-05-17 21:26:58]desc `gj_member`
+[2018-05-17 21:26:58]select * from `gj_member` where member_studentid = 'df'
+[2018-05-17 21:26:59]set names utf8
+[2018-05-17 21:26:59]desc `gj_member`
+[2018-05-17 21:26:59]select * from `gj_member` where member_studentid = 'df'
+[2018-05-17 21:26:59]set names utf8
+[2018-05-17 21:26:59]desc `gj_member`
+[2018-05-17 21:26:59]select * from `gj_member` where member_studentid = 'dfd'
+[2018-05-17 21:26:59]set names utf8
+[2018-05-17 21:26:59]desc `gj_member`
+[2018-05-17 21:26:59]select * from `gj_member` where member_studentid = 'dfdfd'
+[2018-05-17 21:26:59]set names utf8
+[2018-05-17 21:26:59]desc `gj_member`
+[2018-05-17 21:26:59]select * from `gj_member` where member_studentid = 'dfdfdf'
+[2018-05-17 21:26:59]set names utf8
+[2018-05-17 21:26:59]desc `gj_member`
+[2018-05-17 21:26:59]select * from `gj_member` where member_studentid = 'dfdfdf'
+[2018-05-17 21:28:47]set names utf8
+[2018-05-17 21:28:47]desc `gj_member`
+[2018-05-17 21:28:47]select * from `gj_member` where member_studentid = 'dfdfdf'
+[2018-05-17 21:28:49]set names utf8
+[2018-05-17 21:28:49]desc `gj_naviga`
+[2018-05-17 21:28:49]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-17 21:28:49]desc `gj_webset`
+[2018-05-17 21:28:49]select * from `gj_webset` where 1
+[2018-05-17 21:28:52]set names utf8
+[2018-05-17 21:28:52]desc `gj_member`
+[2018-05-17 21:28:52]select * from `gj_member` where member_studentid = '20162343'
+[2018-05-17 21:28:53]set names utf8
+[2018-05-17 21:28:53]desc `gj_member`
+[2018-05-17 21:28:53]set names utf8
+[2018-05-17 21:28:53]desc `gj_member`
+[2018-05-17 21:28:53]select * from `gj_member` where member_studentid = '20162343'
+[2018-05-17 21:28:53]select * from `gj_member` where member_studentid = '20162343'
+[2018-05-17 21:29:18]set names utf8
+[2018-05-17 21:29:18]desc `gj_naviga`
+[2018-05-17 21:29:18]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-17 21:29:18]desc `gj_webset`
+[2018-05-17 21:29:18]select * from `gj_webset` where 1
+[2018-05-17 21:29:21]set names utf8
+[2018-05-17 21:29:21]desc `gj_member`
+[2018-05-17 21:29:21]select * from `gj_member` where member_studentid = '20162343'
+[2018-05-17 21:29:23]set names utf8
+[2018-05-17 21:29:23]desc `gj_member`
+[2018-05-17 21:29:23]set names utf8
+[2018-05-17 21:29:23]desc `gj_member`
+[2018-05-17 21:29:23]select * from `gj_member` where member_studentid = '20162343'
+[2018-05-17 21:29:40]set names utf8
+[2018-05-17 21:29:40]desc `gj_naviga`
+[2018-05-17 21:29:40]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-17 21:29:40]desc `gj_webset`
+[2018-05-17 21:29:40]select * from `gj_webset` where 1
+[2018-05-17 21:30:47]set names utf8
+[2018-05-17 21:30:47]desc `gj_naviga`
+[2018-05-17 21:30:47]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-17 21:30:48]desc `gj_webset`
+[2018-05-17 21:30:48]select * from `gj_webset` where 1
+[2018-05-17 21:44:26]set names utf8
+[2018-05-17 21:44:26]desc `gj_naviga`
+[2018-05-17 21:44:26]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-17 21:44:26]desc `gj_webset`
+[2018-05-17 21:44:26]select * from `gj_webset` where 1
+[2018-05-17 21:44:34]set names utf8
+[2018-05-17 21:44:34]desc `gj_member`
+[2018-05-17 21:44:34]select * from `gj_member` where member_studentid = '20162315'
+[2018-05-17 21:44:57]set names utf8
+[2018-05-17 21:44:57]desc `gj_member`
+[2018-05-17 21:44:57]insert into `gj_member` (member_sutdentid,member_name,member_pass,member_email,member_truename,member_sex,member_hobby,member_content,member_phone,member_images,member_addtime,member_updatetime,member_imgthumn) values ('20162315','老王','123456','123456789@qq.com','帅哥、靓女','1','打球、踢球、玩游戏','反正就系好犀利','110120119114','Member/user.png','1526564697','1526564697','Member/user.png')
+[2018-05-17 21:45:51]set names utf8
+[2018-05-17 21:45:51]desc `gj_member`
+[2018-05-17 21:45:51]insert into `gj_member` (member_studentid,member_name,member_pass,member_email,member_truename,member_sex,member_hobby,member_content,member_phone,member_images,member_addtime,member_updatetime,member_imgthumn) values ('20162315','老王','123456','123456789@qq.com','帅哥、靓女','1','打球、踢球、玩游戏','反正就系好犀利','110120119114','Member/user.png','1526564751','1526564751','Member/user.png')
+[2018-05-17 21:45:51]set names utf8
+[2018-05-17 21:45:51]desc `gj_naviga`
+[2018-05-17 21:45:51]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-17 21:45:51]desc `gj_webset`
+[2018-05-17 21:45:51]select * from `gj_webset` where 1
+[2018-05-17 21:45:57]set names utf8
+[2018-05-17 21:45:57]desc `gj_member`
+[2018-05-17 21:45:57]select * from `gj_member` where member_studentid = '20162315'
+[2018-05-17 21:46:16]set names utf8
+[2018-05-17 21:46:16]desc `gj_member`
+[2018-05-17 21:46:16]select * from `gj_member` where member_studentid = '20162315' and member_pass='e10adc3949ba59abbe56e057f20f883e'
+[2018-05-17 21:46:19]set names utf8
+[2018-05-17 21:46:19]desc `gj_naviga`
+[2018-05-17 21:46:19]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-17 21:46:19]desc `gj_webset`
+[2018-05-17 21:46:19]select * from `gj_webset` where 1
+[2018-05-17 21:47:29]set names utf8
+[2018-05-17 21:47:29]desc `gj_member`
+[2018-05-17 21:47:29]select * from `gj_member` where member_studentid = '20162315'
+[2018-05-17 21:47:52]set names utf8
+[2018-05-17 21:47:52]desc `gj_member`
+[2018-05-17 21:47:52]insert into `gj_member` (member_studentid,member_name,member_pass,member_email,member_truename,member_sex,member_hobby,member_content,member_phone,member_images,member_addtime,member_updatetime,member_imgthumn) values ('20162315','老王','e10adc3949ba59abbe56e057f20f883e','123456789@qq.com','帅哥、靓女','1','打球、踢球、玩游戏','反正就系好犀利','110120119114','Member/user.png','1526564872','1526564872','Member/user.png')
+[2018-05-17 21:47:52]set names utf8
+[2018-05-17 21:47:52]desc `gj_naviga`
+[2018-05-17 21:47:52]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-17 21:47:52]desc `gj_webset`
+[2018-05-17 21:47:52]select * from `gj_webset` where 1
+[2018-05-17 21:47:59]set names utf8
+[2018-05-17 21:47:59]desc `gj_member`
+[2018-05-17 21:47:59]select * from `gj_member` where member_studentid = '20162315' and member_pass='e10adc3949ba59abbe56e057f20f883e'
+[2018-05-17 21:47:59]set names utf8
+[2018-05-17 21:47:59]desc `gj_naviga`
+[2018-05-17 21:47:59]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-17 21:47:59]desc `gj_webset`
+[2018-05-17 21:47:59]select * from `gj_webset` where 1
+[2018-05-17 21:47:59]desc `gj_member`
+[2018-05-17 21:47:59]select * from `gj_member` where member_id = '5'
+[2018-05-17 21:48:08]set names utf8
+[2018-05-17 21:48:08]desc `gj_naviga`
+[2018-05-17 21:48:08]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-17 21:48:08]desc `gj_webset`
+[2018-05-17 21:48:08]select * from `gj_webset` where 1
+[2018-05-17 21:48:08]desc `gj_member`
+[2018-05-17 21:48:08]select * from `gj_member` where 1
+[2018-05-17 21:48:14]set names utf8
+[2018-05-17 21:48:14]desc `gj_naviga`
+[2018-05-17 21:48:14]select * from `gj_naviga` where 1 order by naviga_order
+[2018-05-17 21:48:14]desc `gj_webset`
+[2018-05-17 21:48:14]select * from `gj_webset` where 1
+[2018-05-17 21:48:14]desc `gj_member`
+[2018-05-17 21:48:14]select * from `gj_member` where 1

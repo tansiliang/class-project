@@ -1,0 +1,24 @@
+<?php
+return array(
+    'databases' => array(
+        'host' => '127.0.0.1',
+        'prot' => '3306',
+        'user' => 'root',
+        'pass' => 'root',
+        'charset' => 'utf8',
+        'dbname' => 'gdgxjx',
+        'prefix' => 'gx_',//表名前缀
+    ),#数据库
+    'app' => array(
+        'run_mode' => 'dev',//运行模式，dev(开发环境)|pro（开发环境）
+    ),#应用程序的项目组
+    'admin' => array(
+        'works_list_pagesize' => '6',//后台，分页功能，每页显示多少条记录
+    ),
+    'smarty' => array(
+        'left_delimiter' => '{',#smarty模板的边界符
+        'right_delimiter' => '}',
+        'template_dir' => VIEW_LEVEL_DIR,#smarty模板文件的位置
+        'compile_dir' => VIEW_LEVEL_DIR.'template_c/',#缓存文件
+    ),
+);

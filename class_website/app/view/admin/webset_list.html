@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./app/view/admin/styles/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="./app/view/admin/js/jquery-3.3.1/jquery-3.3.1.min.js"></script>
+    <script src="./app/view/admin/styles/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <title>网站列表</title>
+    <style type="text/css">
+        th,td{
+            text-align:center;
+        }
+        th{
+            background:url(./app/view/admin/images/index/left_bg.jpg) repeat-x;
+            color:#fff;
+        }
+        .table tbody tr td{
+            background:#F2F9FD;
+            text-align:center;
+            vertical-align:middle;
+        }
+        .table-bordered tbody tr th,.table-bordered tbody tr td{
+            border-bottom-width: 0;
+            border:1px solid #B5CFD9;
+        }
+        </style>
+</head>
+<body>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <td colspan="10" style="text-align:left;"><button type="button" onclick="location.href='index.php?p=admin&c=Webset&a=addPage'" class="btn btn-info"><span class="glyphicon glyphicon-list-alt" style="font-size:10px;margin-right:2px;"></span>添加设置信息</button></td>
+                </tr>
+            </thead>
+                
+                <tbody>
+                    <tr>
+                        <th>编号</th>
+                        <th>网站名称</th>
+                        <th>网站标题</th>
+                        <th>标题图标</th>
+                        <th>网址</th>
+                        <th>seo关键字</th>
+                        <th>描述</th>
+                        <th>显示/隐藏</th>
+                        <th>页脚信息</th>
+                        <th>操作</th>
+                    </tr>
+                    {^foreach $list as $row $}
+                    <tr>
+                        <td>{^$row@iteration$}</td>
+                        <td>{^$row['webset_name']$}</td>
+                        <td>{^$row['webset_title']$}</td>
+                        <td><img src="./app/uploaded/{^$row['webset_title_ico']$}" width="100" height="100" /></td>
+                        <td>{^$row['webset_url']$}</td>
+                        <td>{^$row['webset_seo']$}</td>
+                        <td>{^$row['webset_bewrite']$}</td>
+                        <td><img src="./app/view/admin/images/{^if $row['webset_show'] eq 1$}yes{^else$}no{^/if$}.gif" /></td>
+                        <td>详细内容请看编辑</td>
+                        <td><button type="button" class="btn btn-info" style="margin-right:5px;" onclick="location.href='index.php?p=admin&c=Webset&a=sele&id={^$row['webset_id']$} '"><span class="glyphicon glyphicon-edit" style="font-size:10px;"></span>编辑</button><button type="button" class="btn btn-danger" onclick="if(window.confirm('是否确定删除？？？')){ location.href='index.php?p=admin&c=Webset&a=del&id={^$row['webset_id']$} ';}"><span class="glyphicon glyphicon-trash" style="font-size:10px;"></span>删除</button></td>
+                    </tr>
+                    {^/foreach$}
+                </tbody>
+            </table>
+</body>
+</html>

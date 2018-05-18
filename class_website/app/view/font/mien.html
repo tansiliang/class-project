@@ -1,0 +1,22 @@
+{^extends file="./public.html"$}
+{^block name='main'$}
+<div class="container-fulid">
+    <div style="width: 100%;overflow: hidden;" id="activity">
+        <div class="main">
+            {^$i = 1$}
+            {^foreach $work_list as $work$}
+            {^if $work['work_show'] == 1 && $work['work_title'] eq '昔日风采'$}
+            <div class="view view-seventh">
+                <img src="./app/uploaded/{^$work['work_images']$}" />
+                <div class="mask">
+                    {^$work['work_content']$}
+                    <a href="index.php?p=font&c=Mien&a=detail&id={^$work['work_id']$}" class="info" style="position:absolute;bottom:30px;left:110px;">详情</a>
+                </div>
+            </div>
+            {^/if$}
+            {^/foreach$}
+        </div>
+    </div>
+    <div class="ih-item">   
+  </div>
+{^/block$}

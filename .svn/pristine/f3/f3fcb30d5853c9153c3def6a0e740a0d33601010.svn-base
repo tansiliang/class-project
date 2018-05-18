@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul ,li{
+    list-style: none;
+}
+/* 头部信息 */
+#header{
+    height:80px;;
+    width:100%;
+    position:relative;
+    background:url(../images/index/index_bg.jpg) repeat-x left top;
+}
+#header_log img{
+    float:left;
+    border-radius:50px;
+}
+#header_log_text {
+    height:80px;
+    width:auto;
+    line-height:80px;
+    float:left;
+    margin:0 5px;
+}
+#header_log_text h2{
+    font-weight: bold;
+    color:#fff;
+}
+/* 头部按钮 */
+#header_button{
+    width:auto;
+    height:80px;
+    line-height:80px;
+    position:absolute;
+    right:20px;
+}
+#header_button span{
+    font-size:10px;
+    margin-right: 2px;
+}
+
+/* 左侧内容 */
+#left{
+    width:180px;
+    position:fixed;
+    height:100%;
+    background:#F2F9FD;
+    border-right:1px solid #B5CFD9;
+    overflow: auto;
+    padding-bottom:75px;
+    /* bottom:0; */
+}
+#left_top{
+    height:50px;
+    width:100%;
+    line-height:50px;
+    padding-left:20px;  
+    font-size:15px;
+    font-weight:bold;
+    color:white;
+    background:url(../images/index/left_bg.jpg) no-repeat ;
+}
+/* 左侧列表 */
+#left_content{
+}
+.panel{
+    margin-bottom:0;
+}
+ .panel-heading{
+    padding:0;
+}
+.left_top{
+    display:block;
+    width:100%;
+    height:40px;
+    text-align:left;
+    line-height:40px;
+    color:#000;
+    font-weight: bold;
+}
+a:focus,a:hover{
+    text-decoration: none;
+    color:#000;
+}
+.left_a{
+    width:100%;
+    height:30px;
+    line-height:30px;
+    display:block;
+    text-align:left;
+    color:#000;
+    font-size:12px;
+}
+#admin_list li a span{
+    font-size:5px;
+    margin-right:5px;
+}
+/* 所有左侧列表内容距离左边20px */
+.left_range{
+    padding-left:20px;
+}
+/* 切换的样式 */
+#left_content .active{
+    color:#0099CC;
+}
+
+/*  */
+#bread{
+    margin-left:150px;
+    padding-left:40px;
+    height:33px;
+    background:#F2F9FD;
+    padding-top:4px;
+    border-bottom:1px solid #B5CFD9;
+}
+.breadcrumb{
+    padding:0;
+    background:none;
+}
+.breadcrumb li a{
+    color:#000;
+}
+.breadcrumb a:hover{
+    color:#0099CC;
+}
+.glyphicon-home{
+    font-size:10px;
+    padding-right:3px;
+}
+
+/* 右侧主要内容区 */
+#right{
+    border:1px solid #DDDDDD;
+    border-radius: 5px;
+    position:fixed;
+    /* overflow: auto; */
+    left:190px;
+    top:120px;
+    right:0;
+    bottom:0;
+    /* padding-bottom:5px; */
+}
+#right_top{
+    height:40px;
+    line-height:40px;
+    border-bottom:1px solid #dddddd;
+    background:#FCFCFC;
+    padding-left:10px;
+}
+/* 内容 */
+#right_content{
+    width:100%;
+    height:100%;
+    border:0;
+    padding-bottom:15px;
+}
+.table td{
+    /* width:200px; */
+    text-align:center;
+    background:#F4FAFB;
+}
+button {
+    outline:none;
+}

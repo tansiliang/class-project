@@ -1,0 +1,37 @@
+<?php
+class PersonalController extends Controller{
+    /**
+     * 判断当前的用户是否已经登录，已经登录显示个人中心，没登录显示登录页面
+     */
+    public function listAction(){
+            $naviga_name = new NavigaModel;
+            $naviga_list = $naviga_name->getList();
+            $webset_name = new WebsetModel;
+            $webset_list = $webset_name->getList();
+            $smarty = new MySmarty;
+            $smarty->assign("naviga_list",$naviga_list);
+            $smarty->assign("webset",$webset_list);
+        if(isset($_COOKIE['name']) || isset($_COOKIE['pass'])){
+            $smarty->display("personal.html");
+        }else{
+            $smarty->display("entry.html");
+        }
+    }
+    /**
+     * 验证登录
+     */
+    public function loginAction(){
+        $data['name'] = $_POST['username'];
+        $data['pass'] = $_POST['userpass'];
+        $member_name = new MemberModel;
+        // die(var_dump($member_list));
+        if($member_list = $member_name->validateList($data)){
+            setcookie("name",$data['name']);
+            setcookie("pass",$data['pass']);
+            setcookie("member_info",$member_list);
+            $this->jump("index.php?p=font&c=Personal&a=list&id={$member_list['member_id']}");
+        }else{
+            $this->jump("index.php?p=font&c=Personal&a=list","登录信息错误",2);
+        }
+    }
+}

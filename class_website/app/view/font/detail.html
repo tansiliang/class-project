@@ -1,0 +1,19 @@
+{^extends file="./public.html"$}
+{^block name="main"$}
+    <div class="page" style="margin-bottom:10px;">
+        <div class="header"></div>
+        <div class="left" style="">
+            {^$work_list['work_content']$}
+        </div>
+        <div class="right">
+            <p class="tuijian">推荐列表</p>
+            <ul class="right_ul">
+                {^foreach $work as $row$}
+                {^if $row['work_show'] == 1 && $row['work_title'] eq '昔日风采'  && $row['work_hot'] == 1$}
+                <li><a href="index.php?p=font&c=Mien&a=detail">{^$row['work_subtitle']$}</a></li>
+                {^/if$}
+                {^/foreach$}
+            </ul>
+        </div>
+    </div>
+    {^/block$}

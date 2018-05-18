@@ -1,0 +1,183 @@
+{^extends file="./public.html"$}
+        {^block name="main"$}
+        <div class="content container"> 
+            <!-- 右侧内容区域  -->
+            <div class="right_content">
+                <div class="right_content_ul">
+                    <ul>
+                        <li><span>1</span><br />关注</li>
+                        <li><span>2</span><br />粉丝</li>
+                        <li><span>3</span><br />帖子数</li>
+                    </ul>
+                </div>
+                <div class="right_content_2">
+                    <table id="table4">
+                        <tr>
+                            <td colspan="3" width="300">
+                                <button type="button" id="btn_ft" data-toggle="modal" data-target="#myModal2">我要发帖</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="button" id="btn_xh"><span class="glyphicon glyphicon-heart"></span> 喜欢</button>
+                            </td>
+                            <td></td>
+                            <td>
+                                <button type="button" id="btn_sc"><span class=" glyphicon glyphicon-plus-sign"></span> 收藏</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="button" id="btn_sx" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-envelope"></span> 私信</button>
+                            </td>
+                            <td></td>
+                            <td class="tbl_td">
+                                <button type="button" id="btn_fx"><span class="glyphicon glyphicon-send"></span> 分享</button>
+                            </td>
+                        </tr>
+                    </table>
+                    <div id="click_fx">
+                        <img src="./app/view/font/img/weixin.jpg" alt="微信" width="200" height="200">
+                    </div>
+                </div>
+                <!-- 模态框（Modal） -->
+                    <div class="modal fade" id="myModal2" style="z-index:1000;" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                        &times;
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel2">
+                                        发布帖子
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <form action="" role="form">
+                                        <select name="leixing" id="leixing" class="selectpicker">
+                                            <option value="原创专区">原创专区</option>
+                                            <option value="学习专区">学习专区</option>
+                                            <option value="娱乐专区">娱乐专区</option>
+                                            <option value="其他专区">其他专区</option>
+                                        </select>
+                                        <div class="modal_content1">
+                                            <input type="text" name="txt_header" id="txt_header" class="form-control" placeholder="这里是标题哦" style="margin:10px 0;">
+                                            <br />
+                                            <textarea name="modal_txt" id="modal_txt" cols="80" rows="10"></textarea>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                                            </button>
+                                            <button type="button" class="btn btn-primary">
+                                                发布帖子
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!-- 左侧内容区域  -->
+        <div id="left_content">
+            <div id="left_content_1">
+                <div id="left_user">
+                    <table id="table1">
+                        <tr id="tr1">
+                            <!-- 用户头像 -->
+                            <td rowspan="2"><img src="./app/uploaded/{^$arrondi_list['member_imgthumn']$}" style="max-width:100px;max-height:100px;border-radius:50%;"/></td>
+                            <td colspan="5"><strong>{^$arrondi_list['arrondi_title']$}</strong></td>
+                        </tr>
+                        <tr id="tr2">
+                            <td width="100"><span class="glyphicon glyphicon-user"></span> {^$arrondi_list['member_name']$}</td>
+                            <td width="100"><span class="glyphicon glyphicon-book"></span> <a>{^$arrondi_list['arrondi_type']$}</a></td>
+                            <td width="200"><span class="glyphicon glyphicon-time"></span> {^date("Y-m-d H:i:s",$arrondi_list['arrondi_time'])$}</td>
+                            <td width="400" colspan="2" id="td_btn">
+                                <a href="" id="jubao">举报</a>
+                                <a href="" id="huifu">回复</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="banquan" style="padding:0 10px;">{^$arrondi_list['arrondi_content']$}
+                </div>
+        </div>
+                <div class="pinglun">
+                    <div class="pinglun_1">
+                        <strong>全部评论</strong>/<span id="num"> 1条</span>
+                        <p id="pinglun_p">当前账号：<span><a href="">用户名</a></span></p>
+                    </div><!--结束pinglun_1-->
+                    <table id="table_2">
+                        <tr>
+                            <td><img src="./app/view/font/img/search.png" alt="用户头像"></td>
+                            <td>
+                                <form class="bs-example bs-example-form">
+                                    <div class=" input-group" id="input_right">
+                                        <input type="text" class="form-control" id="tbl_text">
+                                        <span class="input-group-btn">
+                                            <button type="button" class="btn btn-default" id="btn">
+                                                 发布回复
+                                            </button>
+                                        </span>
+                                    </div>
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                    <!--回复显示板块-->
+                    <table id="table3">
+                        <tr>
+                            <td rowspan="2"><img src="./app/view/font/img/search.png" alt="用户头像"></td>
+                            <td width="100"><a href="" class="tbl_user">用户名</a></td>
+                            <td width="100"><span class="glyphicon glyphicon-time"></span> 时间</td>
+                            <td width="130"><a class="glyphicon glyphicon-thumbs-up" id="zan" onselectstart="return false"><span style="margin:0 8px 0 5px;" id="zan1">赞</span><span id="zan_num">33</span></a></td>
+                            <td width="500"></td>
+                        </tr>
+                        <tr id="hf">
+                            <td colspan="3"><p>感谢分享精神感谢分享精神感谢分享精神感谢分享精神感谢分享精神</p></td>
+                            <td colspan="2" width="400"><span id="huifu2"><a href="#" data-toggle="modal" data-target="#myModal">回复</a></span></td>
+                        </tr>
+                    </table>
+                </div><!--结束pinglun-->
+
+
+                <!-- 模态框（Modal） -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                    &times;
+                                </button>
+                                <p class="modal-title" id="myModalLabel">
+                                    与<span>南生</span>的聊天
+                                </p>
+                            </div>
+                            <div class="modal-body">
+                                <textarea name="modal_text" id="modal_text" cols="80" rows="10"></textarea>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                                </button>
+                                <button type="button" class="btn btn-primary">
+                                    发布回复
+                                </button>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal -->
+            </div> <!--结束left_content-->
+        </div>
+            <div class="qr_img"></div>   
+            <div class="qr_img2"></div>
+            <ul id="nav_fixed">
+                <li><a class="glyphicon glyphicon-qrcode" id="weixin"></a></li>
+                <li><a class="glyphicon glyphicon-send" id="qq"></a></li>
+                <li><a href="" class="glyphicon glyphicon-triangle-top" id="top"></a></li>
+            </ul>
+        <div class="footer">
+        </div>
+    </div>
+    <script type="text/javascript" src="./app/view/font/js/load_list.js"></script>
+{^/block$}

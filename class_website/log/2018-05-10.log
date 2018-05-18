@@ -1,0 +1,126 @@
+[2018-05-10 15:10:24]set names utf8数据
+[2018-05-10 15:10:24]select sess_data from `gj_session` where sess_name='gkd0qvqglvuoip6374cb9armi7'数据
+[2018-05-10 15:10:24]delete from `gj_session` where expact < 1525934784数据
+[2018-05-10 15:10:25]insert into `gj_session` values ('gkd0qvqglvuoip6374cb9armi7', '', 1525936225) on duplicate key update sess_data='', expact=1525936225数据
+[2018-05-10 15:10:25]set names utf8数据
+[2018-05-10 15:10:25]select sess_data from `gj_session` where sess_name='3r4cmf858j2ml2dliv864l46d5'数据
+[2018-05-10 15:10:25]insert into `gj_session` values ('3r4cmf858j2ml2dliv864l46d5', '', 1525936225) on duplicate key update sess_data='', expact=1525936225数据
+[2018-05-10 15:10:25]set names utf8数据
+[2018-05-10 15:10:25]select sess_data from `gj_session` where sess_name='3r4cmf858j2ml2dliv864l46d5'数据
+[2018-05-10 15:10:25]insert into `gj_session` values ('3r4cmf858j2ml2dliv864l46d5', 'is_captcha|s:4:"HAHT";', 1525936225) on duplicate key update sess_data='is_captcha|s:4:"HAHT";', expact=1525936225数据
+[2018-05-10 15:10:26]set names utf8数据
+[2018-05-10 15:10:26]select sess_data from `gj_session` where sess_name='3r4cmf858j2ml2dliv864l46d5'数据
+[2018-05-10 15:10:26]insert into `gj_session` values ('3r4cmf858j2ml2dliv864l46d5', 'is_captcha|s:4:"UNI3";', 1525936226) on duplicate key update sess_data='is_captcha|s:4:"UNI3";', expact=1525936226数据
+[2018-05-10 15:10:33]set names utf8数据
+[2018-05-10 15:10:33]select sess_data from `gj_session` where sess_name='3r4cmf858j2ml2dliv864l46d5'数据
+[2018-05-10 15:10:33]insert into `gj_session` values ('3r4cmf858j2ml2dliv864l46d5', 'is_captcha|s:4:"UNI3";', 1525936233) on duplicate key update sess_data='is_captcha|s:4:"UNI3";', expact=1525936233数据
+[2018-05-10 15:11:02]set names utf8数据
+[2018-05-10 15:11:02]select sess_data from `gj_session` where sess_name='3r4cmf858j2ml2dliv864l46d5'数据
+[2018-05-10 15:11:02]insert into `gj_session` values ('3r4cmf858j2ml2dliv864l46d5', 'is_captcha|s:4:"6I7X";', 1525936262) on duplicate key update sess_data='is_captcha|s:4:"6I7X";', expact=1525936262数据
+[2018-05-10 15:11:09]set names utf8数据
+[2018-05-10 15:11:09]select sess_data from `gj_session` where sess_name='3r4cmf858j2ml2dliv864l46d5'数据
+[2018-05-10 15:11:09]insert into `gj_session` values ('3r4cmf858j2ml2dliv864l46d5', 'is_captcha|s:4:"6I7X";', 1525936269) on duplicate key update sess_data='is_captcha|s:4:"6I7X";', expact=1525936269数据
+[2018-05-10 15:11:10]set names utf8数据
+[2018-05-10 15:11:10]select sess_data from `gj_session` where sess_name='3r4cmf858j2ml2dliv864l46d5'数据
+[2018-05-10 15:11:10]delete from `gj_session` where expact < 1525934830数据
+[2018-05-10 15:11:10]desc `gj_admin_user`数据
+[2018-05-10 15:11:10]select * from `gj_admin_user` where ad_username='admin'数据
+[2018-05-10 15:11:10]select * from `gj_admin_user` where ad_username = 'admin' and ad_userpass = md5('admin')数据
+[2018-05-10 15:11:11]insert into `gj_session` values ('3r4cmf858j2ml2dliv864l46d5', 'is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', 1525936271) on duplicate key update sess_data='is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', expact=1525936271数据
+[2018-05-10 15:11:11]set names utf8数据
+[2018-05-10 15:11:11]select sess_data from `gj_session` where sess_name='3r4cmf858j2ml2dliv864l46d5'数据
+[2018-05-10 15:11:11]delete from `gj_session` where expact < 1525934831数据
+[2018-05-10 15:11:11]desc `gj_admin_user`数据
+[2018-05-10 15:11:11]select * from `gj_admin_user` where ad_id = '14'数据
+[2018-05-10 15:11:11]insert into `gj_session` values ('3r4cmf858j2ml2dliv864l46d5', 'is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', 1525936271) on duplicate key update sess_data='is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', expact=1525936271数据
+[2018-05-10 15:11:11]set names utf8数据
+[2018-05-10 15:11:11]select sess_data from `gj_session` where sess_name='3r4cmf858j2ml2dliv864l46d5'数据
+[2018-05-10 15:11:11]insert into `gj_session` values ('3r4cmf858j2ml2dliv864l46d5', 'is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', 1525936271) on duplicate key update sess_data='is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', expact=1525936271数据
+[2018-05-10 15:11:15]set names utf8数据
+[2018-05-10 15:11:15]select sess_data from `gj_session` where sess_name='3r4cmf858j2ml2dliv864l46d5'数据
+[2018-05-10 15:11:15]desc `gj_admin_user`数据
+[2018-05-10 15:11:15]update `gj_admin_user` set ad_lasttime = '1525936275',ad_lastip='127.0.0.1' where ad_id = '14'数据
+[2018-05-10 15:11:15]select * from `gj_admin_user` where 1 order by ad_addtime数据
+[2018-05-10 15:11:15]insert into `gj_session` values ('3r4cmf858j2ml2dliv864l46d5', 'is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', 1525936275) on duplicate key update sess_data='is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', expact=1525936275数据
+[2018-05-10 15:11:15]set names utf8数据
+[2018-05-10 15:11:15]select sess_data from `gj_session` where sess_name='3r4cmf858j2ml2dliv864l46d5'数据
+[2018-05-10 15:11:16]desc `gj_member`数据
+[2018-05-10 15:11:16]select * from `gj_member` where 1 order by member_id desc limit 0,3数据
+[2018-05-10 15:11:16]select count(*) from `gj_member` where 1数据
+[2018-05-10 15:11:16]insert into `gj_session` values ('3r4cmf858j2ml2dliv864l46d5', 'is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', 1525936276) on duplicate key update sess_data='is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', expact=1525936276数据
+[2018-05-10 15:11:18]set names utf8数据
+[2018-05-10 15:11:18]select sess_data from `gj_session` where sess_name='3r4cmf858j2ml2dliv864l46d5'数据
+[2018-05-10 15:11:18]desc `gj_member`数据
+[2018-05-10 15:11:18]select * from `gj_member` where member_id = '5'数据
+[2018-05-10 15:11:18]insert into `gj_session` values ('3r4cmf858j2ml2dliv864l46d5', 'is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', 1525936278) on duplicate key update sess_data='is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', expact=1525936278数据
+[2018-05-10 15:11:27]set names utf8数据
+[2018-05-10 15:11:27]select sess_data from `gj_session` where sess_name='3r4cmf858j2ml2dliv864l46d5'数据
+[2018-05-10 15:11:27]desc `gj_member`数据
+[2018-05-10 15:11:27]select * from `gj_member` where 1 order by member_id desc limit 0,3数据
+[2018-05-10 15:11:27]select count(*) from `gj_member` where 1数据
+[2018-05-10 15:11:27]insert into `gj_session` values ('3r4cmf858j2ml2dliv864l46d5', 'is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', 1525936287) on duplicate key update sess_data='is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', expact=1525936287数据
+[2018-05-10 15:13:03]set names utf8数据
+[2018-05-10 15:13:03]select sess_data from `gj_session` where sess_name='3r4cmf858j2ml2dliv864l46d5'数据
+[2018-05-10 15:13:03]desc `gj_member`数据
+[2018-05-10 15:13:03]select * from `gj_member` where 1 order by member_id desc limit 0,3数据
+[2018-05-10 15:13:03]select count(*) from `gj_member` where 1数据
+[2018-05-10 15:13:03]insert into `gj_session` values ('3r4cmf858j2ml2dliv864l46d5', 'is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', 1525936383) on duplicate key update sess_data='is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', expact=1525936383数据
+[2018-05-10 15:13:05]set names utf8数据
+[2018-05-10 15:13:05]select sess_data from `gj_session` where sess_name='3r4cmf858j2ml2dliv864l46d5'数据
+[2018-05-10 15:13:05]desc `gj_member`数据
+[2018-05-10 15:13:05]select * from `gj_member` where member_id = '4'数据
+[2018-05-10 15:13:05]insert into `gj_session` values ('3r4cmf858j2ml2dliv864l46d5', 'is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', 1525936385) on duplicate key update sess_data='is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', expact=1525936385数据
+[2018-05-10 15:13:13]set names utf8数据
+[2018-05-10 15:13:13]select sess_data from `gj_session` where sess_name='3r4cmf858j2ml2dliv864l46d5'数据
+[2018-05-10 15:13:13]delete from `gj_session` where expact < 1525934953数据
+[2018-05-10 15:13:13]insert into `gj_session` values ('3r4cmf858j2ml2dliv864l46d5', 'is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', 1525936393) on duplicate key update sess_data='is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', expact=1525936393数据
+[2018-05-10 15:14:01]set names utf8数据
+[2018-05-10 15:14:01]select sess_data from `gj_session` where sess_name='3r4cmf858j2ml2dliv864l46d5'数据
+[2018-05-10 15:14:01]desc `gj_member`数据
+[2018-05-10 15:14:01]select * from `gj_member` where member_id = '4'数据
+[2018-05-10 15:14:01]insert into `gj_session` values ('3r4cmf858j2ml2dliv864l46d5', 'is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', 1525936441) on duplicate key update sess_data='is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', expact=1525936441数据
+[2018-05-10 15:14:07]set names utf8数据
+[2018-05-10 15:14:08]select sess_data from `gj_session` where sess_name='3r4cmf858j2ml2dliv864l46d5'数据
+[2018-05-10 15:14:08]insert into `gj_session` values ('3r4cmf858j2ml2dliv864l46d5', 'is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', 1525936448) on duplicate key update sess_data='is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', expact=1525936448数据
+[2018-05-10 15:14:46]set names utf8数据
+[2018-05-10 15:14:46]select sess_data from `gj_session` where sess_name='3r4cmf858j2ml2dliv864l46d5'数据
+[2018-05-10 15:14:46]desc `gj_member`数据
+[2018-05-10 15:14:46]select * from `gj_member` where member_id = '4'数据
+[2018-05-10 15:14:46]insert into `gj_session` values ('3r4cmf858j2ml2dliv864l46d5', 'is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', 1525936486) on duplicate key update sess_data='is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', expact=1525936486数据
+[2018-05-10 15:14:48]set names utf8数据
+[2018-05-10 15:14:48]select sess_data from `gj_session` where sess_name='3r4cmf858j2ml2dliv864l46d5'数据
+[2018-05-10 15:14:48]desc `gj_admin_user`数据
+[2018-05-10 15:14:48]select * from `gj_admin_user` where ad_id = '14'数据
+[2018-05-10 15:14:48]insert into `gj_session` values ('3r4cmf858j2ml2dliv864l46d5', 'is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', 1525936488) on duplicate key update sess_data='is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', expact=1525936488数据
+[2018-05-10 15:14:48]set names utf8数据
+[2018-05-10 15:14:48]select sess_data from `gj_session` where sess_name='3r4cmf858j2ml2dliv864l46d5'数据
+[2018-05-10 15:14:48]delete from `gj_session` where expact < 1525935048数据
+[2018-05-10 15:14:48]insert into `gj_session` values ('3r4cmf858j2ml2dliv864l46d5', 'is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', 1525936488) on duplicate key update sess_data='is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', expact=1525936488数据
+[2018-05-10 15:14:49]set names utf8数据
+[2018-05-10 15:14:49]select sess_data from `gj_session` where sess_name='3r4cmf858j2ml2dliv864l46d5'数据
+[2018-05-10 15:14:49]desc `gj_member`数据
+[2018-05-10 15:14:49]select * from `gj_member` where 1 order by member_id desc limit 0,3数据
+[2018-05-10 15:14:49]select count(*) from `gj_member` where 1数据
+[2018-05-10 15:14:49]insert into `gj_session` values ('3r4cmf858j2ml2dliv864l46d5', 'is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', 1525936489) on duplicate key update sess_data='is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', expact=1525936489数据
+[2018-05-10 15:14:51]set names utf8数据
+[2018-05-10 15:14:51]select sess_data from `gj_session` where sess_name='3r4cmf858j2ml2dliv864l46d5'数据
+[2018-05-10 15:14:51]desc `gj_member`数据
+[2018-05-10 15:14:51]select * from `gj_member` where member_id = '5'数据
+[2018-05-10 15:14:51]insert into `gj_session` values ('3r4cmf858j2ml2dliv864l46d5', 'is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', 1525936491) on duplicate key update sess_data='is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', expact=1525936491数据
+[2018-05-10 15:14:57]set names utf8数据
+[2018-05-10 15:14:57]select sess_data from `gj_session` where sess_name='3r4cmf858j2ml2dliv864l46d5'数据
+[2018-05-10 15:14:58]desc `gj_member`数据
+[2018-05-10 15:14:58]update `gj_member` set member_name = 'roots',member_pass = 'c5f6f584b79463f58c223f18fef206ef',member_email = '123456789@qq.com',member_imgthumn = 'Member/20180510/member_5af3f171cac2d_thumb.JPG',member_studentid = '20162347' where member_id = '5'数据
+[2018-05-10 15:14:58]insert into `gj_session` values ('3r4cmf858j2ml2dliv864l46d5', 'is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', 1525936498) on duplicate key update sess_data='is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', expact=1525936498数据
+[2018-05-10 15:14:58]set names utf8数据
+[2018-05-10 15:14:58]select sess_data from `gj_session` where sess_name='3r4cmf858j2ml2dliv864l46d5'数据
+[2018-05-10 15:14:58]desc `gj_member`数据
+[2018-05-10 15:14:58]select * from `gj_member` where 1 order by member_id desc limit 0,3数据
+[2018-05-10 15:14:58]select count(*) from `gj_member` where 1数据
+[2018-05-10 15:14:58]insert into `gj_session` values ('3r4cmf858j2ml2dliv864l46d5', 'is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', 1525936498) on duplicate key update sess_data='is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', expact=1525936498数据
+[2018-05-10 17:28:39]set names utf8数据
+[2018-05-10 17:28:39]select sess_data from `gj_session` where sess_name='3r4cmf858j2ml2dliv864l46d5'数据
+[2018-05-10 17:28:39]desc `gj_switchable`数据
+[2018-05-10 17:28:39]select * from `gj_switchable` where 1 order by switchable_order limit 0,3数据
+[2018-05-10 17:28:39]select count(*) from `gj_switchable` where 1数据
+[2018-05-10 17:28:39]insert into `gj_session` values ('3r4cmf858j2ml2dliv864l46d5', 'is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', 1525944519) on duplicate key update sess_data='is_captcha|s:4:"6I7X";id|s:2:"14";is_name|s:3:"yes";', expact=1525944519数据

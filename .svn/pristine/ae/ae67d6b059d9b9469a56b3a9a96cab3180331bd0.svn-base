@@ -1,0 +1,265 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*内容*/
+.content{
+    overflow: hidden;
+}
+#left_content{
+    float: left;
+    width: 70%;
+    margin:10px 0;
+    padding: 10px 0;
+}
+#left_content_1{
+    border:1px solid #ddd;
+}
+#left_user{
+    border-bottom:1px dashed #ddd;
+}
+/*表格*/
+#table1{
+    width: 100%;
+}
+#tr1{
+    height: 50px;
+}
+#tr1 img{
+    margin-left:10px;
+    border: 1px solid #ddd;
+}
+#tr1 td:first-child{
+    width: 90px;
+}
+#tr1 strong{
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; /*强制在一行显示*/
+}
+
+#tr2{
+    height: 40px;
+}
+#tr2 a{
+    color: black;
+    text-decoration: none;
+}
+#td_btn{
+    text-align: right;
+    padding-right: 50px;
+}
+/*版权*/
+#banquan{
+    margin:15px 0;
+}
+#banquan p{
+    padding-top:10px;
+}
+/*左侧正文部分*/
+.left_content_2{
+    height: 500px;
+    /* border: 1px solid red; */
+}
+/*评论区*/
+.pinglun{
+    border: 1px solid orange;
+    margin-top:15px;
+    overflow: hidden;
+}
+.pinglun_1{
+        border-bottom: 1px solid #ddd;
+        padding: 10px;
+}
+.pinglun_1 strong{
+    font-size: 20px;
+    padding: 10px;
+}
+#pinglun_p{
+    float:right;
+}
+#pinglun_p span a{
+    color: red;
+    text-decoration: none;
+}
+/*发表评论*/
+#table_2{
+    margin-top:10px;
+}
+#table_2 td img,#table3 td img{
+    width: 50px;
+    height: 50px;
+    margin:10px;
+    border: 1px solid rgb(185, 185, 185);
+}
+#tbl_text{
+    height: 60px;
+    width: 500px;
+    /* border-right: 0; */
+}
+.tbl_user{
+    color: red !important;
+}
+#btn{
+    height: 60px;
+    border: 0;
+    background: rgb(190, 190, 190);
+    padding:10px 25px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*回复显示板块*/
+#table3{
+    margin-top: 10px;
+}
+#zan{
+    color: black;
+    padding:0 3px;
+}
+#table3 a{
+     text-decoration: none;
+     color: #000;
+}
+#table3 a:hover{
+    text-decoration: none;
+    cursor:pointer;
+}
+#huifu2{
+    display: none;
+}
+.huifu2{
+    display:block;
+}
+.huifu2 a{
+    color: red;
+}
+#hf p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 200px;
+    margin:0;
+}
+
+/*模态框*/
+#modal_text{
+    border:0;
+}
+
+/*右侧内容*/
+.right_content{
+    position:fixed;
+    z-index:9;
+    width: 300px;
+    margin: 20px 0;
+    right:160px;
+
+}
+/*关注板块*/
+.right_content_ul{
+    border: 1px solid #DDD;
+    padding: 10px 0;
+    overflow: hidden;
+    -moz-box-shadow:0 1px 3px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+
+}
+.right_content_ul ul{
+    margin: 0;
+}
+.right_content_ul ul li{
+    float:left;
+    width: 33%;
+    text-align: center;
+    list-style-type: none;
+    border-left:1px solid #ddd;
+    margin: 0 0 -1px -2px;
+    padding: 10px 0;
+}
+.right_content_2{
+    margin:15px 0;
+    border: 1px solid #DDD;
+    padding: 10px 0;
+    -moz-box-shadow:0 1px 3px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    position: relative;
+    overflow: hidden;
+}
+#table4{
+    width: 300px;
+    margin: 0 auto;
+}
+#btn_ft{
+    width: 300px;
+    padding: 10px 5px;
+    border: 0;
+    background:rgb(36, 181, 238);
+    color: white;
+    margin-bottom:10px;
+}
+#btn_xh,#btn_sc,#btn_fx,#btn_sx{
+    width: 146px;
+    border: 0;
+    margin-bottom:10px;
+    color: white;
+    background:rgb(148, 146, 146);
+    padding: 10px 0;
+}
+#table4:hover span{
+    color: rgb(147, 230, 255);
+}
+/*分享*/
+#click_fx{
+    position:absolute;
+    top:180px;
+    right:0;
+    height: 250px;
+    /* background:#fff;
+    border: 1px solid #ddd; */
+    display: none;
+}
+
+/*右侧导航*/
+ #nav_fixed{
+    position: fixed;
+    right:0px;
+    bottom:160px;
+  }
+  #nav_fixed li{
+      list-style-type: none;
+  }
+  #nav_fixed li a{
+      display: block;
+      background:rgba(0,0,0,0.1);
+      border: 1px solid #fff;
+      padding: 20px;
+      text-decoration: none;
+  }
+    .qr_img{
+      background:url("../img/qr_img.png") no-repeat;
+      background-size: 100%;
+      width: 200px;
+      height: 300px;
+      position: fixed;
+      right: 60px;
+      bottom:260px;
+      display: none;
+  }
+      .qr_img2{
+      background:url("../img/qr_img.png") no-repeat;
+      background-size: 100%;
+      width: 200px;
+      height: 300px;
+      position: fixed;
+      right: 60px;
+      bottom:220px;
+      display: none;
+  }
+  #nav_fixed li a:hover{
+      text-decoration: none;
+  }

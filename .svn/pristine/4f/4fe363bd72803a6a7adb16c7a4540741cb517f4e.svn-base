@@ -1,0 +1,150 @@
+{^extends file="./public.html"$}
+	<!--轮播-->
+	{^block name="main"$}
+	<script>
+		$("document").ready(function(){
+			$(".btn-primary").click(function(){
+				$(".btn-primary").attr({"data-target":"#myModal"});
+				var name = $("#txt").val();
+				$.ajax({
+					url:"index.php?p=font&c=Address&a=select",
+					data:"name="+name,
+					type:"post",
+					dataType:"html",
+					success:function(info){
+						
+						if(info == "你搜索的内容不存在！！！"){
+							$(".btn-primary").attr("data-target","");
+							$(".btn-primary").attr("data-toggle","");
+								alert(info);
+						}else{
+							eval("var mem_info="+info);
+							$(".btn-primary").attr("data-toggle","modal");
+							$(".btn-primary").attr("data-target","#myModal");
+							$("#name").text(mem_info['member_name']);
+							$("#studentid").text(mem_info['member_studentid']);
+							$("#mem_img").attr("src","./app/uploaded/"+mem_info['member_images']);
+							$("#truename").text(mem_info['member_truename']);
+							$("#phone").text(mem_info['member_phone']);
+							$("#hobby").text(mem_info['member_hobby']);
+							$("#js").text(mem_info['member_content']);
+						}
+					}
+				})
+			})
+		});
+	</script>
+	<div class="lb_gl">
+		<div class="header">
+		<!-- <form class="bs-example bs-example-form" action="" method="post"> -->
+			<div class=" input-group" id="input_right">
+				<input type="text" name="truenames" class="form-control" placeholder="输入真实姓名查找" id="txt">
+				<span class="input-group-btn">
+					<!-- <button class="btn btn-default" type="button" id="btn">
+						Go!
+					</button> -->
+					<button class="btn btn-primary" type="button" data-target="" >
+							GO
+					</button>
+				</span>
+			</div>
+		<!-- </form> -->
+		</div>
+		<div class="container-fulid">
+			<!-- <h1 class="turn_3d">通讯录</h1> -->
+			<div class="pictureSlider poster-main">
+				<div class="poster-btn poster-prev-btn"></div>
+				<ul id="zturn" class="poster-list">
+
+						{^foreach $member_list as $member$}
+						<li class="poster-item  zturn-item">
+							<p class="xxgy">学员:{^$member['member_name']$}</p>
+							<p class="say">学号：{^$member['member_studentid']$}</p>
+							<div class="for_btn">
+								<img src="./app/uploaded/{^$member['member_images']$}" width="100%">
+								<!-- <a href="#" class="in_page"><img src="./app/view/font/img/list/iconin.png" /></a> -->
+							</div>
+							<div class="students_star">
+								<p class="cell_list"><span class="lf">姓名：<span class="darks user">{^$member['member_truename']$}</span></span></p>
+								<p class="cell_list"><span>手机：<span class="darks">{^$member['member_phone']$}</span></span>
+								<p class="cell_list"><span>爱好：<span class="darks">{^$member['member_hobby']$}</span></span>
+								</p>
+								<div class="zwjs">
+									{^$member['member_content']$}
+								</div>
+							</div>
+						</li>
+						{^/foreach$}
+					</ul>
+				</div>
+		</div>	
+
+		<!-- 按钮触发模态框 -->
+	
+		<!-- 模态框（Modal） -->
+		<div class="modal fade" data-backdrop="static" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog" style="width:385px;">
+		<div class="modal-content">
+		<div class="modal-header" style="padding:10px;">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+		&times;
+		</button>
+		</div>
+		<div class="modal-body" id="modal_body">
+		<ul id="zturn" class="poster-list modal_zturn">
+			<li class="poster-item  zturn-item">
+				<p class="xxgy">学员:<span id="name"></span></p>
+				<p class="say">学号：<span id="studentid"></span></p>
+				<div class="for_btn">
+					<img src="" id="mem_img" width="100%">
+					<!-- <a href="#" class="in_page"><img src="./app/view/font/img/list/iconin.png" /></a> -->
+				</div>
+				<div class="students_star">
+					<p class="cell_list"><span class="lf">姓名：</span><span id="truename" class="darks user"></span></p>
+					<p class="cell_list"><span>手机：</span><span id="phone" class="darks"></span>
+					<p class="cell_list"><span>爱好：</span><span id="hobby" class="darks"></span>
+					</p>
+					<div id="js" class="zwjs">
+						
+					</div>
+				</div>
+			</li>
+		</ul>
+		</div>
+		</div>
+		</div>
+	</div>			
+		</div>
+		</div>	
+		<script type="text/javascript">
+			var aa=new zturn({
+				id:"zturn",
+				opacity:0.9,
+				width:382,
+				Awidth:1024,
+				scale:0.9,
+				//auto:true,//是否轮播 默认5000
+				auto:true,
+				turning:2000//轮播时长
+			});
+			$(document).ready(function(){
+				$("#btn").click(function(){
+					var txt = $("#txt").val();
+					$(function(){
+						var user = $(".user");
+						var arr =[];
+						user.each(function(){//遍历
+						arr.push($(this).text());	//将遍历的值用push()按顺序加入数组尾部
+						});
+						var len = arr.length;
+						 for(var i=0;i<=len;++i){
+							 if(txt == arr[i]){
+								 
+							 }
+						 }
+					});
+				})
+			})
+		</script>
+		{^/block$}
+

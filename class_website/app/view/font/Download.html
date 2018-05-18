@@ -1,0 +1,64 @@
+{^extends file="./public.html"$}
+{^block name="main"$}
+    <div class="container-fulid">
+        <!--内容部分-->
+        <div class="container-fulid" id="" style="width: 90%;margin:0 auto;">
+            <!--路径导航-->
+            <ul id="content_link">
+                <li id="home"><a href="#" class=" glyphicon glyphicon-home"></a></li>
+                <li><a href="#">信息</a></li>
+            </ul>
+            <!--白色背景div-->
+            <!-- <div id="bg_border"></div> -->
+            <!-- 统计板块  -->
+            <div id="zongji">
+                <ul  class="small">
+                    <li>
+                        <strong>{^$arrondi_count$}</strong>
+                        <span>总帖数</span>
+                    </li>
+                    <li>
+                        <strong>111</strong>
+                        <span>当前时间</span>
+                    </li>
+                    <li>
+                        <strong>46476</strong>
+                        <span>昨日发帖数</span>
+                    </li>
+                    <li>
+                        <strong>{^$counts$}</strong>
+                        <span>会员总数</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- 资料分享 -->
+            <div id="content_center">
+                <p class="ct_p"><a href="#">学习资料</a></p>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="xuexi">
+                        <table class="user_table">
+                            <tr>
+                                <th class="td_1">序号</th>
+                                <th class="td_2">类型</th>
+                                <th class="td_3">内容</th>
+                                <th class="td_4">用户</th>
+                            </tr>
+                            {^foreach $list as $row$}
+                            <tr>
+                                <td class="td_1">{^$row@iteration$}</td>
+                                <td class="td_2"><a href="#">{^$row['arrondi_type']$}</a></td>
+                                <td class="td_3"><li class="arrondi_content"><a href="index.php?p=font&c=Download&a=pagelist&id={^$row['arrondi_id']$}">{^$row['arrondi_title']$}</a></li></td>
+                                <td class="td_4"><a href="#">{^$row['member_name']$}</a></td>
+                            </tr>
+                            {^/foreach$}
+                            <tr>
+                                <td id="pages" colspan="4" style="text-align:center;">{^$html_page$}</td>
+                            </tr>
+                            
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {^/block$}

@@ -1,0 +1,21 @@
+{^extends file="./public.html"$}
+{^block name="main"$}
+<div id="introduce" style="height:500px;">
+        {^$i = 1$}
+        {^foreach $work_list as $work$}
+        {^if $work['work_title'] == "关于我们" && $work['work_show'] == 1 && $i++ <= 1$}
+            <h1>{^$work['work_title']$}</h1>
+            <div id="introduce-left" style="">
+                <img src="./app/uploaded/{^$work['work_images']$}" style="max-height:300px;max-width:auto;" />
+            </div>
+            <div id="introduce-right" style="max-height:300px;max-width:auto;">
+                {^$work['work_content']$}
+            </div>
+            <div style="clear:both"></div>
+        {^/if$}
+        {^/foreach$}
+    </div>
+    <div>
+        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1398599250&site=qq&menu=yes" style="position:fixed;right:5px;top:200px;"><img border="0" src="http://wpa.qq.com/pa?p=2:1398599250:53" alt="点击这里给我们发消息" title="点击这里给我们消息"/></a>
+    </div>
+{^/block$}

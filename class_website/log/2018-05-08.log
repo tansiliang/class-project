@@ -1,0 +1,43 @@
+[2018-05-08 07:20:49]set names utf8数据
+[2018-05-08 07:20:49]select sess_data from `gj_session` where sess_name='ohbq4r43prna5u7rld53gjcrt4'数据
+[2018-05-08 07:20:49]delete from `gj_session` where expact < 1525733809数据
+[2018-05-08 07:20:49]insert into `gj_session` values ('ohbq4r43prna5u7rld53gjcrt4', '', 1525735249) on duplicate key update sess_data='', expact=1525735249数据
+[2018-05-08 07:20:50]set names utf8数据
+[2018-05-08 07:20:50]select sess_data from `gj_session` where sess_name='ohbq4r43prna5u7rld53gjcrt4'数据
+[2018-05-08 07:20:50]insert into `gj_session` values ('ohbq4r43prna5u7rld53gjcrt4', 'is_captcha|s:4:"X4PC";', 1525735250) on duplicate key update sess_data='is_captcha|s:4:"X4PC";', expact=1525735250数据
+[2018-05-08 16:13:07]set names utf8数据
+[2018-05-08 16:13:07]select sess_data from `gj_session` where sess_name='2umtfp7jpujo0bphnlsphfcql1'数据
+[2018-05-08 16:13:08]set names utf8数据
+[2018-05-08 16:13:08]set names utf8数据
+[2018-05-08 16:13:08]select sess_data from `gj_session` where sess_name='2umtfp7jpujo0bphnlsphfcql1'数据
+[2018-05-08 16:13:08]insert into `gj_session` values ('2umtfp7jpujo0bphnlsphfcql1', '', 1525767188) on duplicate key update sess_data='', expact=1525767188数据
+[2018-05-08 16:13:08]select sess_data from `gj_session` where sess_name='fl3k639sj5rgu4nv2mfitb22k3'数据
+[2018-05-08 16:13:08]insert into `gj_session` values ('fl3k639sj5rgu4nv2mfitb22k3', '', 1525767188) on duplicate key update sess_data='', expact=1525767188数据
+[2018-05-08 16:13:09]insert into `gj_session` values ('2umtfp7jpujo0bphnlsphfcql1', 'is_captcha|s:4:"IJS7";', 1525767189) on duplicate key update sess_data='is_captcha|s:4:"IJS7";', expact=1525767189数据
+[2018-05-08 16:13:09]set names utf8数据
+[2018-05-08 16:13:09]select sess_data from `gj_session` where sess_name='fl3k639sj5rgu4nv2mfitb22k3'数据
+[2018-05-08 16:13:09]insert into `gj_session` values ('fl3k639sj5rgu4nv2mfitb22k3', 'is_captcha|s:4:"FY5Z";', 1525767189) on duplicate key update sess_data='is_captcha|s:4:"FY5Z";', expact=1525767189数据
+[2018-05-08 16:13:19]set names utf8数据
+[2018-05-08 16:13:20]select sess_data from `gj_session` where sess_name='fl3k639sj5rgu4nv2mfitb22k3'数据
+[2018-05-08 16:13:20]insert into `gj_session` values ('fl3k639sj5rgu4nv2mfitb22k3', 'is_captcha|s:4:"FY5Z";', 1525767200) on duplicate key update sess_data='is_captcha|s:4:"FY5Z";', expact=1525767200数据
+[2018-05-08 16:13:20]set names utf8数据
+[2018-05-08 16:13:20]select sess_data from `gj_session` where sess_name='fl3k639sj5rgu4nv2mfitb22k3'数据
+[2018-05-08 16:13:20]delete from `gj_session` where expact < 1525765760数据
+[2018-05-08 16:13:20]desc `gj_admin_user`数据
+[2018-05-08 16:13:21]select * from `gj_admin_user` where ad_username='admin'数据
+[2018-05-08 16:13:21]select * from `gj_admin_user` where ad_username = 'admin' and ad_userpass = md5('admin')数据
+[2018-05-08 16:13:21]insert into `gj_session` values ('fl3k639sj5rgu4nv2mfitb22k3', 'is_captcha|s:4:"FY5Z";id|s:2:"14";is_name|s:3:"yes";', 1525767201) on duplicate key update sess_data='is_captcha|s:4:"FY5Z";id|s:2:"14";is_name|s:3:"yes";', expact=1525767201数据
+[2018-05-08 16:13:21]set names utf8数据
+[2018-05-08 16:13:21]select sess_data from `gj_session` where sess_name='fl3k639sj5rgu4nv2mfitb22k3'数据
+[2018-05-08 16:13:21]desc `gj_admin_user`数据
+[2018-05-08 16:13:21]select * from `gj_admin_user` where ad_id = '14'数据
+[2018-05-08 16:13:21]insert into `gj_session` values ('fl3k639sj5rgu4nv2mfitb22k3', 'is_captcha|s:4:"FY5Z";id|s:2:"14";is_name|s:3:"yes";', 1525767201) on duplicate key update sess_data='is_captcha|s:4:"FY5Z";id|s:2:"14";is_name|s:3:"yes";', expact=1525767201数据
+[2018-05-08 16:13:21]set names utf8数据
+[2018-05-08 16:13:21]select sess_data from `gj_session` where sess_name='fl3k639sj5rgu4nv2mfitb22k3'数据
+[2018-05-08 16:13:21]insert into `gj_session` values ('fl3k639sj5rgu4nv2mfitb22k3', 'is_captcha|s:4:"FY5Z";id|s:2:"14";is_name|s:3:"yes";', 1525767201) on duplicate key update sess_data='is_captcha|s:4:"FY5Z";id|s:2:"14";is_name|s:3:"yes";', expact=1525767201数据
+[2018-05-08 16:13:23]set names utf8数据
+[2018-05-08 16:13:23]select sess_data from `gj_session` where sess_name='fl3k639sj5rgu4nv2mfitb22k3'数据
+[2018-05-08 16:13:23]desc `gj_admin_user`数据
+[2018-05-08 16:13:23]update `gj_admin_user` set ad_lasttime = '1525767203',ad_lastip='127.0.0.1' where ad_id = '14'数据
+[2018-05-08 16:13:23]select * from `gj_admin_user` where 1 order by ad_addtime数据
+[2018-05-08 16:13:23]insert into `gj_session` values ('fl3k639sj5rgu4nv2mfitb22k3', 'is_captcha|s:4:"FY5Z";id|s:2:"14";is_name|s:3:"yes";', 1525767203) on duplicate key update sess_data='is_captcha|s:4:"FY5Z";id|s:2:"14";is_name|s:3:"yes";', expact=1525767203数据

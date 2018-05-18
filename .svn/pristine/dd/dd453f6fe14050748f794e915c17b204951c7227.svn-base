@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./app/view/admin/styles/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="./app/view/admin/js/jquery-3.3.1/jquery-3.3.1.min.js"></script>
+    <script src="./app/view/admin/styles/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="./app/view/admin/js/kindeditor/kindeditor-all.js" /></script>
+    <script src="./app/view/admin/js/kindeditor/lang/zh-CN.js" /></script>
+    <script type="text/javascript">
+        KindEditor.ready(function(K){
+            K.create("#work_content",{
+                themeType:'simple',
+                resizeType:1,
+                uploadjson:'./app/view/admin/js/kindeditor/php/upload_json.php',
+                fileManagerJson:'./app/view/admin/js/kindeditor/php/file_manager_json.php',
+                allowFileManager:true,
+                afterBlur:function(){
+                    this.sync();
+                }
+            });
+        });
+    </script>
+    <title>编辑页面</title>
+    <style>
+        .table tbody tr td,.table tfoot tr td{
+            background:#F2F9FD;
+            text-align:center;
+            vertical-align:middle;
+        }
+        .table-bordered thead tr th,.table-bordered tbody tr td{
+            border-bottom-width: 0;
+            border:1px solid #B5CFD9;
+        }
+        #name ,#title,#order,#url,#old,#salt{
+            color:red;
+        }
+        </style>
+        <script>
+            $("document").ready(function(){
+                $("#work_images").change(function(){
+                    var work_img = document.getElementById("work_images").files[0];
+                    var imgs = document.getElementById('imagess');
+                    imgs.src = window.URL.createObjectURL(work_img);
+                });
+            });
+        </script>
+</head>
+<body>
+    <table class="table table-bordered">
+        <form action="index.php?p=admin&c=Work&a=edit" method="post" enctype="multipart/form-data">
+            <thead>
+                <tr>
+                    <th colspan="3"><button type="button" onclick="location.href='index.php?p=admin&c=Work&a=list'" class="btn btn-info"><span class="glyphicon glyphicon-list-alt" style="font-size:10px;margin-right:2px;"></span>文章列表</button></th>
+                </tr>
+            </thead>
+        <tbody>
+            <tr>
+                <td>文章类别</td>
+                <td>
+                    <select name="work_categoryid" class="form-control" id="work_categoryid">
+                        {^foreach $link as $row$}
+                        <option value="{^$row['naviga_id']$}" {^if $row['naviga_id'] eq $list['work_categoryid']$}selected{^/if$}>{^str_repeat("&nbsp;&nbsp;&nbsp;",$row['dree'])$}{^$row['naviga_name']$}</option>
+                        {^/foreach$}
+                    </select>
+                </td>
+                <td id="name"></td>
+            </tr>
+            <tr>
+                <td>文章标题</td>
+                <td><input type="text" name="work_title" id="work_title" value="{^$list['work_title']$}" class="form-control" /></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>内容</td>
+                <td><textarea style="width:700px;height:350px;" name="work_content" id="work_content">{^$list['work_content']$}</textarea></td>
+                <td id=""></td>
+            </tr>
+            <tr>
+                <td>是否热门</td>
+                <td>{^html_radios options=$hot name="work_hot" selected=$sel_hot$}</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>是否发布</td>
+                <td>{^html_radios options=$opt name="work_show" selected=$sel_show$}</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>排序</td>
+                <td><input type="text" class="form-control" name="work_order" id="work_order" value="{^$list['work_order']$}" /></td>
+                <td id="show"></td>
+            </tr>
+            <tr>
+                <td>文件</td>
+                <td><input type="file" name="work_images" id="work_images" /></td>
+                <td><img id="imagess" src='./app/uploaded/{^$list['work_thumn']$}' height="100px" width="100px" /><input type="hidden" name="img" value="{^$list['work_images']$}" /><input type="hidden" name="img_thumn" value="{^$list['work_thumn']$}" /></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <input type="hidden" value="{^$list['work_id']$}" name="work_id" id="work_id" />
+                <td colspan="3"><button type="reset" class="btn btn-danger" name="work_ap_res" id="work_ap_res" >重置</button><span style="width:10px;display:inline-block;"></span><button class="btn btn-success" type="submit" name="work_ap_sub" id="work_ap_sub" >修改</button></td>
+            </tr>
+        </tfoot>
+        </form>
+    </table>
+</body>
+</html>
